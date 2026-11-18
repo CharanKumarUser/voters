@@ -1,0 +1,5339 @@
+[
+  {
+    "gp_serial": 1,
+    "epic_id": "UXN0229948",
+    "house_no": "808202",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0001.jpg",
+    "crop_path": "/static/crops/card_gp_0001.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 2,
+    "epic_id": "UXN0349274",
+    "house_no": "2ed",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0002.jpg",
+    "crop_path": "/static/crops/card_gp_0002.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 3,
+    "epic_id": "UXN2085678",
+    "house_no": "8",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0003.jpg",
+    "crop_path": "/static/crops/card_gp_0003.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 4,
+    "epic_id": "UXN2088045",
+    "house_no": "808208s",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0004.jpg",
+    "crop_path": "/static/crops/card_gp_0004.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 5,
+    "epic_id": "UXN2237550",
+    "house_no": "1-1/A1",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0005.jpg",
+    "crop_path": "/static/crops/card_gp_0005.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 6,
+    "epic_id": "UXN1793843",
+    "house_no": "1793843",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0006.jpg",
+    "crop_path": "/static/crops/card_gp_0006.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 7,
+    "epic_id": "UXN0195453",
+    "house_no": "1-2",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0007.jpg",
+    "crop_path": "/static/crops/card_gp_0007.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 8,
+    "epic_id": "UXN1793868",
+    "house_no": "8082025",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0008.jpg",
+    "crop_path": "/static/crops/card_gp_0008.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 9,
+    "epic_id": "UXN1793850",
+    "house_no": "2",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0009.jpg",
+    "crop_path": "/static/crops/card_gp_0009.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 10,
+    "epic_id": "UXN0953027",
+    "house_no": "8082029",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0010.jpg",
+    "crop_path": "/static/crops/card_gp_0010.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 11,
+    "epic_id": "UXN0909517",
+    "house_no": "808208",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0011.jpg",
+    "crop_path": "/static/crops/card_gp_0011.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 12,
+    "epic_id": "UXN2216455",
+    "house_no": "8",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0012.jpg",
+    "crop_path": "/static/crops/card_gp_0012.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 13,
+    "epic_id": "UXN0618033",
+    "house_no": "808",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0013.jpg",
+    "crop_path": "/static/crops/card_gp_0013.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 14,
+    "epic_id": "UXN1793918",
+    "house_no": "20820",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0014.jpg",
+    "crop_path": "/static/crops/card_gp_0014.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 15,
+    "epic_id": "UXN1793900",
+    "house_no": "2ew",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0015.jpg",
+    "crop_path": "/static/crops/card_gp_0015.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 16,
+    "epic_id": "UXN0011916",
+    "house_no": "808202s",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0016.jpg",
+    "crop_path": "/static/crops/card_gp_0016.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 17,
+    "epic_id": "UXN2223592",
+    "house_no": "803",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0017.jpg",
+    "crop_path": "/static/crops/card_gp_0017.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 18,
+    "epic_id": "UXN2129146",
+    "house_no": "2129146",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0018.jpg",
+    "crop_path": "/static/crops/card_gp_0018.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 19,
+    "epic_id": "UXN2088078",
+    "house_no": "1-15",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0019.jpg",
+    "crop_path": "/static/crops/card_gp_0019.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 20,
+    "epic_id": "UXN1794254",
+    "house_no": "8082085",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0020.jpg",
+    "crop_path": "/static/crops/card_gp_0020.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 21,
+    "epic_id": "UXN0121616",
+    "house_no": "2d",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0021.jpg",
+    "crop_path": "/static/crops/card_gp_0021.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 22,
+    "epic_id": "UXN0011908",
+    "house_no": "808",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0022.jpg",
+    "crop_path": "/static/crops/card_gp_0022.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 23,
+    "epic_id": "UXN1061282",
+    "house_no": "4-3",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0023.jpg",
+    "crop_path": "/static/crops/card_gp_0023.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 24,
+    "epic_id": "UXN1794304",
+    "house_no": "2e",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0024.jpg",
+    "crop_path": "/static/crops/card_gp_0024.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 25,
+    "epic_id": "CWB2288900",
+    "house_no": "4-3-1",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0025.jpg",
+    "crop_path": "/static/crops/card_gp_0025.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 26,
+    "epic_id": "UXN1157700",
+    "house_no": "4-3-1",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0026.jpg",
+    "crop_path": "/static/crops/card_gp_0026.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 27,
+    "epic_id": "UXN1795038",
+    "house_no": "2",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0027.jpg",
+    "crop_path": "/static/crops/card_gp_0027.jpg",
+    "page_no": 1
+  },
+  {
+    "gp_serial": 28,
+    "epic_id": "UXN1795103",
+    "house_no": "8",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0028.jpg",
+    "crop_path": "/static/crops/card_gp_0028.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 29,
+    "epic_id": "UXN1794684",
+    "house_no": "2ed",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0029.jpg",
+    "crop_path": "/static/crops/card_gp_0029.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 30,
+    "epic_id": "UXN0011866",
+    "house_no": "200",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0030.jpg",
+    "crop_path": "/static/crops/card_gp_0030.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 31,
+    "epic_id": "UXN0121624",
+    "house_no": "808205",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0031.jpg",
+    "crop_path": "/static/crops/card_gp_0031.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 32,
+    "epic_id": "UXN0011924",
+    "house_no": "4-6",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0032.jpg",
+    "crop_path": "/static/crops/card_gp_0032.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 33,
+    "epic_id": "UXN2077964",
+    "house_no": "2077964",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0033.jpg",
+    "crop_path": "/static/crops/card_gp_0033.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 34,
+    "epic_id": "UXN1028373",
+    "house_no": "1-21",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0034.jpg",
+    "crop_path": "/static/crops/card_gp_0034.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 35,
+    "epic_id": "UXN1101377",
+    "house_no": "23",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0035.jpg",
+    "crop_path": "/static/crops/card_gp_0035.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 36,
+    "epic_id": "UXN0716755",
+    "house_no": "0",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0036.jpg",
+    "crop_path": "/static/crops/card_gp_0036.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 37,
+    "epic_id": "UXN1793926",
+    "house_no": "1-29",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0037.jpg",
+    "crop_path": "/static/crops/card_gp_0037.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 38,
+    "epic_id": "UXN1022839",
+    "house_no": "808208",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0038.jpg",
+    "crop_path": "/static/crops/card_gp_0038.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 39,
+    "epic_id": "UXN2115525",
+    "house_no": "2115525",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0039.jpg",
+    "crop_path": "/static/crops/card_gp_0039.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 40,
+    "epic_id": "UXN1157650",
+    "house_no": "808",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0040.jpg",
+    "crop_path": "/static/crops/card_gp_0040.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 41,
+    "epic_id": "UXN0617787",
+    "house_no": "29",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0041.jpg",
+    "crop_path": "/static/crops/card_gp_0041.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 42,
+    "epic_id": "UXN1223189",
+    "house_no": "3o",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0042.jpg",
+    "crop_path": "/static/crops/card_gp_0042.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 43,
+    "epic_id": "UXN1223197",
+    "house_no": "1-31",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0043.jpg",
+    "crop_path": "/static/crops/card_gp_0043.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 44,
+    "epic_id": "UXN1181346",
+    "house_no": "3o",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0044.jpg",
+    "crop_path": "/static/crops/card_gp_0044.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 45,
+    "epic_id": "UXN1793942",
+    "house_no": "8",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0045.jpg",
+    "crop_path": "/static/crops/card_gp_0045.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 46,
+    "epic_id": "UXN1793934",
+    "house_no": "1-33",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0046.jpg",
+    "crop_path": "/static/crops/card_gp_0046.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 47,
+    "epic_id": "CWB2835809",
+    "house_no": "2835809",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0047.jpg",
+    "crop_path": "/static/crops/card_gp_0047.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 48,
+    "epic_id": "UXN0542720",
+    "house_no": "2e",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0048.jpg",
+    "crop_path": "/static/crops/card_gp_0048.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 49,
+    "epic_id": "UXN1022946",
+    "house_no": "1-33",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0049.jpg",
+    "crop_path": "/static/crops/card_gp_0049.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 50,
+    "epic_id": "UXN1793967",
+    "house_no": "34",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0050.jpg",
+    "crop_path": "/static/crops/card_gp_0050.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 51,
+    "epic_id": "UXN1793975",
+    "house_no": "2d",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0051.jpg",
+    "crop_path": "/static/crops/card_gp_0051.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 52,
+    "epic_id": "CWB1621911",
+    "house_no": "1-38",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0052.jpg",
+    "crop_path": "/static/crops/card_gp_0052.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 53,
+    "epic_id": "CWB2836062",
+    "house_no": "2d",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0053.jpg",
+    "crop_path": "/static/crops/card_gp_0053.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 54,
+    "epic_id": "UXN0903766",
+    "house_no": "2o",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0054.jpg",
+    "crop_path": "/static/crops/card_gp_0054.jpg",
+    "page_no": 2
+  },
+  {
+    "gp_serial": 55,
+    "epic_id": "UXN0618025",
+    "house_no": "808208",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0055.jpg",
+    "crop_path": "/static/crops/card_gp_0055.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 56,
+    "epic_id": "UXN0617993",
+    "house_no": "3o",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0056.jpg",
+    "crop_path": "/static/crops/card_gp_0056.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 57,
+    "epic_id": "UXN1793991",
+    "house_no": "2",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0057.jpg",
+    "crop_path": "/static/crops/card_gp_0057.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 58,
+    "epic_id": "UXN1793983",
+    "house_no": "1-39",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0058.jpg",
+    "crop_path": "/static/crops/card_gp_0058.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 59,
+    "epic_id": "UXN0349258",
+    "house_no": "1-39",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0059.jpg",
+    "crop_path": "/static/crops/card_gp_0059.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 60,
+    "epic_id": "CWB1622000",
+    "house_no": "80820w",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0060.jpg",
+    "crop_path": "/static/crops/card_gp_0060.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 61,
+    "epic_id": "UXN0011973",
+    "house_no": "8082025",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0061.jpg",
+    "crop_path": "/static/crops/card_gp_0061.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 62,
+    "epic_id": "UXN0195495",
+    "house_no": "8082089",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0062.jpg",
+    "crop_path": "/static/crops/card_gp_0062.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 63,
+    "epic_id": "UXN2049112",
+    "house_no": "24",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0063.jpg",
+    "crop_path": "/static/crops/card_gp_0063.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 64,
+    "epic_id": "UXN1794726",
+    "house_no": "808",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0064.jpg",
+    "crop_path": "/static/crops/card_gp_0064.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 65,
+    "epic_id": "UXN2345700",
+    "house_no": "2345700",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0065.jpg",
+    "crop_path": "/static/crops/card_gp_0065.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 66,
+    "epic_id": "UXN2360410",
+    "house_no": "808208",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0066.jpg",
+    "crop_path": "/static/crops/card_gp_0066.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 67,
+    "epic_id": "UXN2237519",
+    "house_no": "808",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0067.jpg",
+    "crop_path": "/static/crops/card_gp_0067.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 68,
+    "epic_id": "UXN0617936",
+    "house_no": "1-39",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0068.jpg",
+    "crop_path": "/static/crops/card_gp_0068.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 69,
+    "epic_id": "UXN1185016",
+    "house_no": "808",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0069.jpg",
+    "crop_path": "/static/crops/card_gp_0069.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 70,
+    "epic_id": "UXN1794239",
+    "house_no": "8082085",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0070.jpg",
+    "crop_path": "/static/crops/card_gp_0070.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 71,
+    "epic_id": "CWB1621713",
+    "house_no": "4-2-1",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0071.jpg",
+    "crop_path": "/static/crops/card_gp_0071.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 72,
+    "epic_id": "CWB1621721",
+    "house_no": "8082085",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0072.jpg",
+    "crop_path": "/static/crops/card_gp_0072.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 73,
+    "epic_id": "UXN1794734",
+    "house_no": "808",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0073.jpg",
+    "crop_path": "/static/crops/card_gp_0073.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 74,
+    "epic_id": "UXN1794692",
+    "house_no": "808",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0074.jpg",
+    "crop_path": "/static/crops/card_gp_0074.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 75,
+    "epic_id": "CWB1622133",
+    "house_no": "80820s",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0075.jpg",
+    "crop_path": "/static/crops/card_gp_0075.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 76,
+    "epic_id": "UXN0121608",
+    "house_no": "4-11",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0076.jpg",
+    "crop_path": "/static/crops/card_gp_0076.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 77,
+    "epic_id": "UXN0542738",
+    "house_no": "4-11",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0077.jpg",
+    "crop_path": "/static/crops/card_gp_0077.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 78,
+    "epic_id": "UXN0195461",
+    "house_no": "80820ws",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0078.jpg",
+    "crop_path": "/static/crops/card_gp_0078.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 79,
+    "epic_id": "UXN0903626",
+    "house_no": "808",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0079.jpg",
+    "crop_path": "/static/crops/card_gp_0079.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 80,
+    "epic_id": "UXN1061183",
+    "house_no": "80820",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0080.jpg",
+    "crop_path": "/static/crops/card_gp_0080.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 81,
+    "epic_id": "UXN2184844",
+    "house_no": "808",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0081.jpg",
+    "crop_path": "/static/crops/card_gp_0081.jpg",
+    "page_no": 3
+  },
+  {
+    "gp_serial": 82,
+    "epic_id": "UXN0011932",
+    "house_no": "8",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0082.jpg",
+    "crop_path": "/static/crops/card_gp_0082.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 83,
+    "epic_id": "UXN1794759",
+    "house_no": "1794759",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0083.jpg",
+    "crop_path": "/static/crops/card_gp_0083.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 84,
+    "epic_id": "UXN1794767",
+    "house_no": "2",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0084.jpg",
+    "crop_path": "/static/crops/card_gp_0084.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 85,
+    "epic_id": "UXN0011957",
+    "house_no": "808",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0085.jpg",
+    "crop_path": "/static/crops/card_gp_0085.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 86,
+    "epic_id": "UXN0349183",
+    "house_no": "4-2-3",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0086.jpg",
+    "crop_path": "/static/crops/card_gp_0086.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 87,
+    "epic_id": "UXN1794791",
+    "house_no": "3o",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0087.jpg",
+    "crop_path": "/static/crops/card_gp_0087.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 88,
+    "epic_id": "UXN1794775",
+    "house_no": "4-13/1",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0088.jpg",
+    "crop_path": "/static/crops/card_gp_0088.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 89,
+    "epic_id": "UXN1794783",
+    "house_no": "808208",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0089.jpg",
+    "crop_path": "/static/crops/card_gp_0089.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 90,
+    "epic_id": "CWB1621895",
+    "house_no": "20d",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0090.jpg",
+    "crop_path": "/static/crops/card_gp_0090.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 91,
+    "epic_id": "UXN1181296",
+    "house_no": "808",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0091.jpg",
+    "crop_path": "/static/crops/card_gp_0091.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 92,
+    "epic_id": "UXN1794841",
+    "house_no": "808208",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0092.jpg",
+    "crop_path": "/static/crops/card_gp_0092.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 93,
+    "epic_id": "UXN1794825",
+    "house_no": "3o",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0093.jpg",
+    "crop_path": "/static/crops/card_gp_0093.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 94,
+    "epic_id": "UXN1794833",
+    "house_no": "4-15/2",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0094.jpg",
+    "crop_path": "/static/crops/card_gp_0094.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 95,
+    "epic_id": "UXN1794866",
+    "house_no": "1794866",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0095.jpg",
+    "crop_path": "/static/crops/card_gp_0095.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 96,
+    "epic_id": "UXN1794858",
+    "house_no": "1794858",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0096.jpg",
+    "crop_path": "/static/crops/card_gp_0096.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 97,
+    "epic_id": "UXN0011874",
+    "house_no": "80820ws",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0097.jpg",
+    "crop_path": "/static/crops/card_gp_0097.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 98,
+    "epic_id": "CWB2289023",
+    "house_no": "2289023",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0098.jpg",
+    "crop_path": "/static/crops/card_gp_0098.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 99,
+    "epic_id": "CWB2289015",
+    "house_no": "2ed",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0099.jpg",
+    "crop_path": "/static/crops/card_gp_0099.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 100,
+    "epic_id": "CWB2835791",
+    "house_no": "4-9",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0100.jpg",
+    "crop_path": "/static/crops/card_gp_0100.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 101,
+    "epic_id": "CWB1622208",
+    "house_no": "1622208",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0101.jpg",
+    "crop_path": "/static/crops/card_gp_0101.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 102,
+    "epic_id": "UXN1794890",
+    "house_no": "1794890",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0102.jpg",
+    "crop_path": "/static/crops/card_gp_0102.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 103,
+    "epic_id": "CWB1621804",
+    "house_no": "808",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0103.jpg",
+    "crop_path": "/static/crops/card_gp_0103.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 104,
+    "epic_id": "UXN1794908",
+    "house_no": "1794908",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0104.jpg",
+    "crop_path": "/static/crops/card_gp_0104.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 105,
+    "epic_id": "UXN0011965",
+    "house_no": "208",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0105.jpg",
+    "crop_path": "/static/crops/card_gp_0105.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 106,
+    "epic_id": "UXN1794296",
+    "house_no": "80820w5",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0106.jpg",
+    "crop_path": "/static/crops/card_gp_0106.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 107,
+    "epic_id": "UXN1794262",
+    "house_no": "8",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0107.jpg",
+    "crop_path": "/static/crops/card_gp_0107.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 108,
+    "epic_id": "UXN1022904",
+    "house_no": "2d",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0108.jpg",
+    "crop_path": "/static/crops/card_gp_0108.jpg",
+    "page_no": 4
+  },
+  {
+    "gp_serial": 109,
+    "epic_id": "UXN1142587",
+    "house_no": "808",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0109.jpg",
+    "crop_path": "/static/crops/card_gp_0109.jpg",
+    "page_no": 5
+  },
+  {
+    "gp_serial": 110,
+    "epic_id": "UXN2049120",
+    "house_no": "44/4",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0110.jpg",
+    "crop_path": "/static/crops/card_gp_0110.jpg",
+    "page_no": 5
+  },
+  {
+    "gp_serial": 111,
+    "epic_id": "UXN0983891",
+    "house_no": "2",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0111.jpg",
+    "crop_path": "/static/crops/card_gp_0111.jpg",
+    "page_no": 5
+  },
+  {
+    "gp_serial": 112,
+    "epic_id": "UXN0983909",
+    "house_no": "8082029",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0112.jpg",
+    "crop_path": "/static/crops/card_gp_0112.jpg",
+    "page_no": 5
+  },
+  {
+    "gp_serial": 113,
+    "epic_id": "UXN0983883",
+    "house_no": "1-45A",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0113.jpg",
+    "crop_path": "/static/crops/card_gp_0113.jpg",
+    "page_no": 5
+  },
+  {
+    "gp_serial": 114,
+    "epic_id": "UXN0983875",
+    "house_no": "8082085",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0114.jpg",
+    "crop_path": "/static/crops/card_gp_0114.jpg",
+    "page_no": 5
+  },
+  {
+    "gp_serial": 115,
+    "epic_id": "UXN2238954",
+    "house_no": "808",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0115.jpg",
+    "crop_path": "/static/crops/card_gp_0115.jpg",
+    "page_no": 5
+  },
+  {
+    "gp_serial": 116,
+    "epic_id": "UXN2237535",
+    "house_no": "808208",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0116.jpg",
+    "crop_path": "/static/crops/card_gp_0116.jpg",
+    "page_no": 5
+  },
+  {
+    "gp_serial": 117,
+    "epic_id": "UXN0617761",
+    "house_no": "0",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0117.jpg",
+    "crop_path": "/static/crops/card_gp_0117.jpg",
+    "page_no": 5
+  },
+  {
+    "gp_serial": 118,
+    "epic_id": "UXN1181452",
+    "house_no": "802",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0118.jpg",
+    "crop_path": "/static/crops/card_gp_0118.jpg",
+    "page_no": 5
+  },
+  {
+    "gp_serial": 119,
+    "epic_id": "UXN2237337",
+    "house_no": "8082085",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0119.jpg",
+    "crop_path": "/static/crops/card_gp_0119.jpg",
+    "page_no": 5
+  },
+  {
+    "gp_serial": 120,
+    "epic_id": "UXN2068369",
+    "house_no": "1-53",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0120.jpg",
+    "crop_path": "/static/crops/card_gp_0120.jpg",
+    "page_no": 5
+  },
+  {
+    "gp_serial": 121,
+    "epic_id": "UXN0805087",
+    "house_no": "808",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0121.jpg",
+    "crop_path": "/static/crops/card_gp_0121.jpg",
+    "page_no": 5
+  },
+  {
+    "gp_serial": 122,
+    "epic_id": "UXN1794007",
+    "house_no": "808",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0122.jpg",
+    "crop_path": "/static/crops/card_gp_0122.jpg",
+    "page_no": 5
+  },
+  {
+    "gp_serial": 123,
+    "epic_id": "UXN0903642",
+    "house_no": "808202",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0123.jpg",
+    "crop_path": "/static/crops/card_gp_0123.jpg",
+    "page_no": 5
+  },
+  {
+    "gp_serial": 124,
+    "epic_id": "UXN0804899",
+    "house_no": "808",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0124.jpg",
+    "crop_path": "/static/crops/card_gp_0124.jpg",
+    "page_no": 5
+  },
+  {
+    "gp_serial": 125,
+    "epic_id": "UXN2299451",
+    "house_no": "1-60",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0125.jpg",
+    "crop_path": "/static/crops/card_gp_0125.jpg",
+    "page_no": 5
+  },
+  {
+    "gp_serial": 126,
+    "epic_id": "UXN2299287",
+    "house_no": "8082085",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0126.jpg",
+    "crop_path": "/static/crops/card_gp_0126.jpg",
+    "page_no": 5
+  },
+  {
+    "gp_serial": 127,
+    "epic_id": "GP0127",
+    "house_no": "808",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0127.jpg",
+    "crop_path": "/static/crops/card_gp_0127.jpg",
+    "page_no": 5
+  },
+  {
+    "gp_serial": 128,
+    "epic_id": "UXN2237683",
+    "house_no": "808202",
+    "ward": 1,
+    "photo_path": "/static/photos/photo_gp_0128.jpg",
+    "crop_path": "/static/crops/card_gp_0128.jpg",
+    "page_no": 5
+  },
+  {
+    "gp_serial": 129,
+    "epic_id": "UXN2273597",
+    "house_no": "808",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0129.jpg",
+    "crop_path": "/static/crops/card_gp_0129.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 130,
+    "epic_id": "UXN2410256",
+    "house_no": "1-66",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0130.jpg",
+    "crop_path": "/static/crops/card_gp_0130.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 131,
+    "epic_id": "UXN1054329",
+    "house_no": "2d",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0131.jpg",
+    "crop_path": "/static/crops/card_gp_0131.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 132,
+    "epic_id": "UXN1022805",
+    "house_no": "808",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0132.jpg",
+    "crop_path": "/static/crops/card_gp_0132.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 133,
+    "epic_id": "UXN0804998",
+    "house_no": "808",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0133.jpg",
+    "crop_path": "/static/crops/card_gp_0133.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 134,
+    "epic_id": "UXN2224525",
+    "house_no": "02m08",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0134.jpg",
+    "crop_path": "/static/crops/card_gp_0134.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 135,
+    "epic_id": "UXN2077998",
+    "house_no": "808",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0135.jpg",
+    "crop_path": "/static/crops/card_gp_0135.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 136,
+    "epic_id": "UXN2129138",
+    "house_no": "808202s",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0136.jpg",
+    "crop_path": "/static/crops/card_gp_0136.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 137,
+    "epic_id": "UXN2205664",
+    "house_no": "1-69",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0137.jpg",
+    "crop_path": "/static/crops/card_gp_0137.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 138,
+    "epic_id": "UXN1022813",
+    "house_no": "808",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0138.jpg",
+    "crop_path": "/static/crops/card_gp_0138.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 139,
+    "epic_id": "CWB1622190",
+    "house_no": "808",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0139.jpg",
+    "crop_path": "/static/crops/card_gp_0139.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 140,
+    "epic_id": "UXN0805020",
+    "house_no": "8082095",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0140.jpg",
+    "crop_path": "/static/crops/card_gp_0140.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 141,
+    "epic_id": "UXN1794023",
+    "house_no": "808",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0141.jpg",
+    "crop_path": "/static/crops/card_gp_0141.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 142,
+    "epic_id": "UXN1794049",
+    "house_no": "808",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0142.jpg",
+    "crop_path": "/static/crops/card_gp_0142.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 143,
+    "epic_id": "CWB1621853",
+    "house_no": "1-72",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0143.jpg",
+    "crop_path": "/static/crops/card_gp_0143.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 144,
+    "epic_id": "CWB1621820",
+    "house_no": "808",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0144.jpg",
+    "crop_path": "/static/crops/card_gp_0144.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 145,
+    "epic_id": "CWB1621838",
+    "house_no": "8082085",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0145.jpg",
+    "crop_path": "/static/crops/card_gp_0145.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 146,
+    "epic_id": "UXN0012013",
+    "house_no": "80820ws",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0146.jpg",
+    "crop_path": "/static/crops/card_gp_0146.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 147,
+    "epic_id": "UXN1022797",
+    "house_no": "808",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0147.jpg",
+    "crop_path": "/static/crops/card_gp_0147.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 148,
+    "epic_id": "UXN2068468",
+    "house_no": "1-72",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0148.jpg",
+    "crop_path": "/static/crops/card_gp_0148.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 149,
+    "epic_id": "UXN2129294",
+    "house_no": "808",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0149.jpg",
+    "crop_path": "/static/crops/card_gp_0149.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 150,
+    "epic_id": "UXN1794064",
+    "house_no": "808",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0150.jpg",
+    "crop_path": "/static/crops/card_gp_0150.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 151,
+    "epic_id": "UXN1794056",
+    "house_no": "1-75",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0151.jpg",
+    "crop_path": "/static/crops/card_gp_0151.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 152,
+    "epic_id": "UXN0523803",
+    "house_no": "808208",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0152.jpg",
+    "crop_path": "/static/crops/card_gp_0152.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 153,
+    "epic_id": "UXN1061266",
+    "house_no": "808",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0153.jpg",
+    "crop_path": "/static/crops/card_gp_0153.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 154,
+    "epic_id": "UXN1022920",
+    "house_no": "808202",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0154.jpg",
+    "crop_path": "/static/crops/card_gp_0154.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 155,
+    "epic_id": "CWB2288082",
+    "house_no": "8082085",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0155.jpg",
+    "crop_path": "/static/crops/card_gp_0155.jpg",
+    "page_no": 6
+  },
+  {
+    "gp_serial": 156,
+    "epic_id": "UXN0012021",
+    "house_no": "08",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0156.jpg",
+    "crop_path": "/static/crops/card_gp_0156.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 157,
+    "epic_id": "UXN0012039",
+    "house_no": "1-76",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0157.jpg",
+    "crop_path": "/static/crops/card_gp_0157.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 158,
+    "epic_id": "UXN0661322",
+    "house_no": "208",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0158.jpg",
+    "crop_path": "/static/crops/card_gp_0158.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 159,
+    "epic_id": "UXN1794072",
+    "house_no": "083",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0159.jpg",
+    "crop_path": "/static/crops/card_gp_0159.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 160,
+    "epic_id": "CWB1622075",
+    "house_no": "1-78",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0160.jpg",
+    "crop_path": "/static/crops/card_gp_0160.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 161,
+    "epic_id": "CWB1622034",
+    "house_no": "1-78",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0161.jpg",
+    "crop_path": "/static/crops/card_gp_0161.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 162,
+    "epic_id": "UXN0805269",
+    "house_no": "08",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0162.jpg",
+    "crop_path": "/static/crops/card_gp_0162.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 163,
+    "epic_id": "UXN2216703",
+    "house_no": "1-79",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0163.jpg",
+    "crop_path": "/static/crops/card_gp_0163.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 164,
+    "epic_id": "UXN2086353",
+    "house_no": "1-79",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0164.jpg",
+    "crop_path": "/static/crops/card_gp_0164.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 165,
+    "epic_id": "UXN1794106",
+    "house_no": "083",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0165.jpg",
+    "crop_path": "/static/crops/card_gp_0165.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 166,
+    "epic_id": "CWB1622067",
+    "house_no": "1-80",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0166.jpg",
+    "crop_path": "/static/crops/card_gp_0166.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 167,
+    "epic_id": "CWB1622141",
+    "house_no": "1-80",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0167.jpg",
+    "crop_path": "/static/crops/card_gp_0167.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 168,
+    "epic_id": "UXN1794114",
+    "house_no": "08202",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0168.jpg",
+    "crop_path": "/static/crops/card_gp_0168.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 169,
+    "epic_id": "CWB2288041",
+    "house_no": "1-81",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0169.jpg",
+    "crop_path": "/static/crops/card_gp_0169.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 170,
+    "epic_id": "CWB1622026",
+    "house_no": "1-81",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0170.jpg",
+    "crop_path": "/static/crops/card_gp_0170.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 171,
+    "epic_id": "UXN0012047",
+    "house_no": "1-81",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0171.jpg",
+    "crop_path": "/static/crops/card_gp_0171.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 172,
+    "epic_id": "UXN0454348",
+    "house_no": "1-81",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0172.jpg",
+    "crop_path": "/static/crops/card_gp_0172.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 173,
+    "epic_id": "UXN2224327",
+    "house_no": "1-81",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0173.jpg",
+    "crop_path": "/static/crops/card_gp_0173.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 174,
+    "epic_id": "UXN2129310",
+    "house_no": "1-81",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0174.jpg",
+    "crop_path": "/static/crops/card_gp_0174.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 175,
+    "epic_id": "UXN2077980",
+    "house_no": "1-81",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0175.jpg",
+    "crop_path": "/static/crops/card_gp_0175.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 176,
+    "epic_id": "UXN2068351",
+    "house_no": "1-81",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0176.jpg",
+    "crop_path": "/static/crops/card_gp_0176.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 177,
+    "epic_id": "UXN2273381",
+    "house_no": "1-81",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0177.jpg",
+    "crop_path": "/static/crops/card_gp_0177.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 178,
+    "epic_id": "UXN1022912",
+    "house_no": "1-82",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0178.jpg",
+    "crop_path": "/static/crops/card_gp_0178.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 179,
+    "epic_id": "UXN1157627",
+    "house_no": "1-84",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0179.jpg",
+    "crop_path": "/static/crops/card_gp_0179.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 180,
+    "epic_id": "UXN0744137",
+    "house_no": "08",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0180.jpg",
+    "crop_path": "/static/crops/card_gp_0180.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 181,
+    "epic_id": "UXN2215705",
+    "house_no": "1-85-A",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0181.jpg",
+    "crop_path": "/static/crops/card_gp_0181.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 182,
+    "epic_id": "UXN0903675",
+    "house_no": "1/87/A",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0182.jpg",
+    "crop_path": "/static/crops/card_gp_0182.jpg",
+    "page_no": 7
+  },
+  {
+    "gp_serial": 183,
+    "epic_id": "UXN1157668",
+    "house_no": "8082085",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0183.jpg",
+    "crop_path": "/static/crops/card_gp_0183.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 184,
+    "epic_id": "UXN2091007",
+    "house_no": "2091007",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0184.jpg",
+    "crop_path": "/static/crops/card_gp_0184.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 185,
+    "epic_id": "UXN2129302",
+    "house_no": "8",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0185.jpg",
+    "crop_path": "/static/crops/card_gp_0185.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 186,
+    "epic_id": "UXN0805210",
+    "house_no": "1-90",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0186.jpg",
+    "crop_path": "/static/crops/card_gp_0186.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 187,
+    "epic_id": "UXN1185024",
+    "house_no": "808",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0187.jpg",
+    "crop_path": "/static/crops/card_gp_0187.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 188,
+    "epic_id": "UXN2049146",
+    "house_no": "808208",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0188.jpg",
+    "crop_path": "/static/crops/card_gp_0188.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 189,
+    "epic_id": "UXN2236727",
+    "house_no": "808208s",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0189.jpg",
+    "crop_path": "/static/crops/card_gp_0189.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 190,
+    "epic_id": "UXN2256444",
+    "house_no": "1-97",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0190.jpg",
+    "crop_path": "/static/crops/card_gp_0190.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 191,
+    "epic_id": "UXN1794122",
+    "house_no": "2025",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0191.jpg",
+    "crop_path": "/static/crops/card_gp_0191.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 192,
+    "epic_id": "UXN1794163",
+    "house_no": "80820s",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0192.jpg",
+    "crop_path": "/static/crops/card_gp_0192.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 193,
+    "epic_id": "UXN1794155",
+    "house_no": "1-97",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0193.jpg",
+    "crop_path": "/static/crops/card_gp_0193.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 194,
+    "epic_id": "UXN1794148",
+    "house_no": "1-97",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0194.jpg",
+    "crop_path": "/static/crops/card_gp_0194.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 195,
+    "epic_id": "UXN1794130",
+    "house_no": "808",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0195.jpg",
+    "crop_path": "/static/crops/card_gp_0195.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 196,
+    "epic_id": "CWB1622117",
+    "house_no": "808",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0196.jpg",
+    "crop_path": "/static/crops/card_gp_0196.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 197,
+    "epic_id": "UXN0195388",
+    "house_no": "808202",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0197.jpg",
+    "crop_path": "/static/crops/card_gp_0197.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 198,
+    "epic_id": "UXN0997785",
+    "house_no": "808",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0198.jpg",
+    "crop_path": "/static/crops/card_gp_0198.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 199,
+    "epic_id": "UXN2068377",
+    "house_no": "1-97",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0199.jpg",
+    "crop_path": "/static/crops/card_gp_0199.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 200,
+    "epic_id": "UXN2336998",
+    "house_no": "808202",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0200.jpg",
+    "crop_path": "/static/crops/card_gp_0200.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 201,
+    "epic_id": "CWB1622109",
+    "house_no": "1-97/A",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0201.jpg",
+    "crop_path": "/static/crops/card_gp_0201.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 202,
+    "epic_id": "UXN1054337",
+    "house_no": "808",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0202.jpg",
+    "crop_path": "/static/crops/card_gp_0202.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 203,
+    "epic_id": "UXN1794171",
+    "house_no": "1-98",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0203.jpg",
+    "crop_path": "/static/crops/card_gp_0203.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 204,
+    "epic_id": "UXN1157692",
+    "house_no": "808",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0204.jpg",
+    "crop_path": "/static/crops/card_gp_0204.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 205,
+    "epic_id": "UXN2216729",
+    "house_no": "1-98",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0205.jpg",
+    "crop_path": "/static/crops/card_gp_0205.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 206,
+    "epic_id": "UXN2085694",
+    "house_no": "808",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0206.jpg",
+    "crop_path": "/static/crops/card_gp_0206.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 207,
+    "epic_id": "UXN2086536",
+    "house_no": "808",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0207.jpg",
+    "crop_path": "/static/crops/card_gp_0207.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 208,
+    "epic_id": "UXN2216711",
+    "house_no": "1-99",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0208.jpg",
+    "crop_path": "/static/crops/card_gp_0208.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 209,
+    "epic_id": "UXN1794197",
+    "house_no": "808",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0209.jpg",
+    "crop_path": "/static/crops/card_gp_0209.jpg",
+    "page_no": 8
+  },
+  {
+    "gp_serial": 210,
+    "epic_id": "UXN1794189",
+    "house_no": "3o",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0210.jpg",
+    "crop_path": "/static/crops/card_gp_0210.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 211,
+    "epic_id": "UXN0661314",
+    "house_no": "0661314",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0211.jpg",
+    "crop_path": "/static/crops/card_gp_0211.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 212,
+    "epic_id": "UXN0903782",
+    "house_no": "20",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0212.jpg",
+    "crop_path": "/static/crops/card_gp_0212.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 213,
+    "epic_id": "UXN0903634",
+    "house_no": "0903634",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0213.jpg",
+    "crop_path": "/static/crops/card_gp_0213.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 214,
+    "epic_id": "UXN1794213",
+    "house_no": "2",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0214.jpg",
+    "crop_path": "/static/crops/card_gp_0214.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 215,
+    "epic_id": "UXN1794205",
+    "house_no": "1794205",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0215.jpg",
+    "crop_path": "/static/crops/card_gp_0215.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 216,
+    "epic_id": "CWB2288090",
+    "house_no": "1-102",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0216.jpg",
+    "crop_path": "/static/crops/card_gp_0216.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 217,
+    "epic_id": "CWB1621978",
+    "house_no": "2e",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0217.jpg",
+    "crop_path": "/static/crops/card_gp_0217.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 218,
+    "epic_id": "CWB1621747",
+    "house_no": "202",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0218.jpg",
+    "crop_path": "/static/crops/card_gp_0218.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 219,
+    "epic_id": "CWB1622059",
+    "house_no": "80820w",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0219.jpg",
+    "crop_path": "/static/crops/card_gp_0219.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 220,
+    "epic_id": "UXN1061340",
+    "house_no": "1061340",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0220.jpg",
+    "crop_path": "/static/crops/card_gp_0220.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 221,
+    "epic_id": "UXN1794221",
+    "house_no": "2",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0221.jpg",
+    "crop_path": "/static/crops/card_gp_0221.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 222,
+    "epic_id": "UXN0805178",
+    "house_no": "2ed",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0222.jpg",
+    "crop_path": "/static/crops/card_gp_0222.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 223,
+    "epic_id": "UXN1061134",
+    "house_no": "1061134",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0223.jpg",
+    "crop_path": "/static/crops/card_gp_0223.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 224,
+    "epic_id": "UXN2085538",
+    "house_no": "3o",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0224.jpg",
+    "crop_path": "/static/crops/card_gp_0224.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 225,
+    "epic_id": "UXN2237675",
+    "house_no": "2237675",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0225.jpg",
+    "crop_path": "/static/crops/card_gp_0225.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 226,
+    "epic_id": "UXN2077899",
+    "house_no": "8",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0226.jpg",
+    "crop_path": "/static/crops/card_gp_0226.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 227,
+    "epic_id": "UXN1181486",
+    "house_no": "8",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0227.jpg",
+    "crop_path": "/static/crops/card_gp_0227.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 228,
+    "epic_id": "UXN1101419",
+    "house_no": "0-7",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0228.jpg",
+    "crop_path": "/static/crops/card_gp_0228.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 229,
+    "epic_id": "UXN1061217",
+    "house_no": "3o",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0229.jpg",
+    "crop_path": "/static/crops/card_gp_0229.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 230,
+    "epic_id": "UXN1290840",
+    "house_no": "88",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0230.jpg",
+    "crop_path": "/static/crops/card_gp_0230.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 231,
+    "epic_id": "UXN2237527",
+    "house_no": "4-6/2",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0231.jpg",
+    "crop_path": "/static/crops/card_gp_0231.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 232,
+    "epic_id": "CWB2835817",
+    "house_no": "2",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0232.jpg",
+    "crop_path": "/static/crops/card_gp_0232.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 233,
+    "epic_id": "UXN1794700",
+    "house_no": "2",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0233.jpg",
+    "crop_path": "/static/crops/card_gp_0233.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 234,
+    "epic_id": "UXN1794817",
+    "house_no": "4-15/1",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0234.jpg",
+    "crop_path": "/static/crops/card_gp_0234.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 235,
+    "epic_id": "UXN0617894",
+    "house_no": "0617894",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0235.jpg",
+    "crop_path": "/static/crops/card_gp_0235.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 236,
+    "epic_id": "UXN1181478",
+    "house_no": "1181478",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0236.jpg",
+    "crop_path": "/static/crops/card_gp_0236.jpg",
+    "page_no": 9
+  },
+  {
+    "gp_serial": 237,
+    "epic_id": "UXN1794882",
+    "house_no": "208",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0237.jpg",
+    "crop_path": "/static/crops/card_gp_0237.jpg",
+    "page_no": 10
+  },
+  {
+    "gp_serial": 238,
+    "epic_id": "UXN2313369",
+    "house_no": "2313369",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0238.jpg",
+    "crop_path": "/static/crops/card_gp_0238.jpg",
+    "page_no": 10
+  },
+  {
+    "gp_serial": 239,
+    "epic_id": "UXN1794924",
+    "house_no": "1794924",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0239.jpg",
+    "crop_path": "/static/crops/card_gp_0239.jpg",
+    "page_no": 10
+  },
+  {
+    "gp_serial": 240,
+    "epic_id": "UXN1794916",
+    "house_no": "803",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0240.jpg",
+    "crop_path": "/static/crops/card_gp_0240.jpg",
+    "page_no": 10
+  },
+  {
+    "gp_serial": 241,
+    "epic_id": "UXN0195644",
+    "house_no": "4-25",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0241.jpg",
+    "crop_path": "/static/crops/card_gp_0241.jpg",
+    "page_no": 10
+  },
+  {
+    "gp_serial": 242,
+    "epic_id": "UXN0195651",
+    "house_no": "8082085",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0242.jpg",
+    "crop_path": "/static/crops/card_gp_0242.jpg",
+    "page_no": 10
+  },
+  {
+    "gp_serial": 243,
+    "epic_id": "UXN0139733",
+    "house_no": "8082083",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0243.jpg",
+    "crop_path": "/static/crops/card_gp_0243.jpg",
+    "page_no": 10
+  },
+  {
+    "gp_serial": 244,
+    "epic_id": "UXN0264606",
+    "house_no": "4-25",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0244.jpg",
+    "crop_path": "/static/crops/card_gp_0244.jpg",
+    "page_no": 10
+  },
+  {
+    "gp_serial": 245,
+    "epic_id": "UXN0349308",
+    "house_no": "30",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0245.jpg",
+    "crop_path": "/static/crops/card_gp_0245.jpg",
+    "page_no": 10
+  },
+  {
+    "gp_serial": 246,
+    "epic_id": "UXN1181429",
+    "house_no": "808",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0246.jpg",
+    "crop_path": "/static/crops/card_gp_0246.jpg",
+    "page_no": 10
+  },
+  {
+    "gp_serial": 247,
+    "epic_id": "UXN1794932",
+    "house_no": "808208",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0247.jpg",
+    "crop_path": "/static/crops/card_gp_0247.jpg",
+    "page_no": 10
+  },
+  {
+    "gp_serial": 248,
+    "epic_id": "UXN1101344",
+    "house_no": "8082085",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0248.jpg",
+    "crop_path": "/static/crops/card_gp_0248.jpg",
+    "page_no": 10
+  },
+  {
+    "gp_serial": 249,
+    "epic_id": "UXN1794940",
+    "house_no": "808",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0249.jpg",
+    "crop_path": "/static/crops/card_gp_0249.jpg",
+    "page_no": 10
+  },
+  {
+    "gp_serial": 250,
+    "epic_id": "UXN1061209",
+    "house_no": "4-27",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0250.jpg",
+    "crop_path": "/static/crops/card_gp_0250.jpg",
+    "page_no": 10
+  },
+  {
+    "gp_serial": 251,
+    "epic_id": "UXN1794973",
+    "house_no": "4-2\u53f7",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0251.jpg",
+    "crop_path": "/static/crops/card_gp_0251.jpg",
+    "page_no": 10
+  },
+  {
+    "gp_serial": 252,
+    "epic_id": "UXN1794981",
+    "house_no": "4-27",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0252.jpg",
+    "crop_path": "/static/crops/card_gp_0252.jpg",
+    "page_no": 10
+  },
+  {
+    "gp_serial": 253,
+    "epic_id": "UXN1794965",
+    "house_no": "4-27",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0253.jpg",
+    "crop_path": "/static/crops/card_gp_0253.jpg",
+    "page_no": 10
+  },
+  {
+    "gp_serial": 254,
+    "epic_id": "CWB1621879",
+    "house_no": "808",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0254.jpg",
+    "crop_path": "/static/crops/card_gp_0254.jpg",
+    "page_no": 10
+  },
+  {
+    "gp_serial": 255,
+    "epic_id": "GP0255",
+    "house_no": "808",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0255.jpg",
+    "crop_path": "/static/crops/card_gp_0255.jpg",
+    "page_no": 10
+  },
+  {
+    "gp_serial": 256,
+    "epic_id": "UXN0523837",
+    "house_no": "4-27",
+    "ward": 2,
+    "photo_path": "/static/photos/photo_gp_0256.jpg",
+    "crop_path": "/static/crops/card_gp_0256.jpg",
+    "page_no": 10
+  },
+  {
+    "gp_serial": 257,
+    "epic_id": "UXN0195396",
+    "house_no": "808",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0257.jpg",
+    "crop_path": "/static/crops/card_gp_0257.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 258,
+    "epic_id": "UXN0523886",
+    "house_no": "2e",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0258.jpg",
+    "crop_path": "/static/crops/card_gp_0258.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 259,
+    "epic_id": "UXN2273548",
+    "house_no": "2",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0259.jpg",
+    "crop_path": "/static/crops/card_gp_0259.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 260,
+    "epic_id": "UXN1795012",
+    "house_no": "4-28",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0260.jpg",
+    "crop_path": "/static/crops/card_gp_0260.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 261,
+    "epic_id": "UXN1795004",
+    "house_no": "4-28",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0261.jpg",
+    "crop_path": "/static/crops/card_gp_0261.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 262,
+    "epic_id": "CWB2835825",
+    "house_no": "2835825",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0262.jpg",
+    "crop_path": "/static/crops/card_gp_0262.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 263,
+    "epic_id": "UXN1795053",
+    "house_no": "80820s",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0263.jpg",
+    "crop_path": "/static/crops/card_gp_0263.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 264,
+    "epic_id": "UXN1795020",
+    "house_no": "808208",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0264.jpg",
+    "crop_path": "/static/crops/card_gp_0264.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 265,
+    "epic_id": "UXN1795046",
+    "house_no": "4-4",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0265.jpg",
+    "crop_path": "/static/crops/card_gp_0265.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 266,
+    "epic_id": "CWB1621861",
+    "house_no": "4-29",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0266.jpg",
+    "crop_path": "/static/crops/card_gp_0266.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 267,
+    "epic_id": "UXN0139832",
+    "house_no": "808208",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0267.jpg",
+    "crop_path": "/static/crops/card_gp_0267.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 268,
+    "epic_id": "UXN0349217",
+    "house_no": "3o",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0268.jpg",
+    "crop_path": "/static/crops/card_gp_0268.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 269,
+    "epic_id": "UXN0617845",
+    "house_no": "4-29",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0269.jpg",
+    "crop_path": "/static/crops/card_gp_0269.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 270,
+    "epic_id": "UXN0617860",
+    "house_no": "4-29",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0270.jpg",
+    "crop_path": "/static/crops/card_gp_0270.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 271,
+    "epic_id": "CWB2289270",
+    "house_no": "4-9A",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0271.jpg",
+    "crop_path": "/static/crops/card_gp_0271.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 272,
+    "epic_id": "CWB2835833",
+    "house_no": "4-29/A",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0272.jpg",
+    "crop_path": "/static/crops/card_gp_0272.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 273,
+    "epic_id": "UXN1795061",
+    "house_no": "808205",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0273.jpg",
+    "crop_path": "/static/crops/card_gp_0273.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 274,
+    "epic_id": "UXN1795087",
+    "house_no": "4-",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0274.jpg",
+    "crop_path": "/static/crops/card_gp_0274.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 275,
+    "epic_id": "UXN1795079",
+    "house_no": "4-31",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0275.jpg",
+    "crop_path": "/static/crops/card_gp_0275.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 276,
+    "epic_id": "CWB2288363",
+    "house_no": "4-31",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0276.jpg",
+    "crop_path": "/static/crops/card_gp_0276.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 277,
+    "epic_id": "UXN0011981",
+    "house_no": "3o",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0277.jpg",
+    "crop_path": "/static/crops/card_gp_0277.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 278,
+    "epic_id": "UXN0121657",
+    "house_no": "808208s",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0278.jpg",
+    "crop_path": "/static/crops/card_gp_0278.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 279,
+    "epic_id": "UXN0011999",
+    "house_no": "4-31",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0279.jpg",
+    "crop_path": "/static/crops/card_gp_0279.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 280,
+    "epic_id": "UXN0523894",
+    "house_no": "2d",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0280.jpg",
+    "crop_path": "/static/crops/card_gp_0280.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 281,
+    "epic_id": "UXN1795095",
+    "house_no": "8082025",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0281.jpg",
+    "crop_path": "/static/crops/card_gp_0281.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 282,
+    "epic_id": "UXN0139782",
+    "house_no": "4-33/1",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0282.jpg",
+    "crop_path": "/static/crops/card_gp_0282.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 283,
+    "epic_id": "UXN1061142",
+    "house_no": "2d",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0283.jpg",
+    "crop_path": "/static/crops/card_gp_0283.jpg",
+    "page_no": 11
+  },
+  {
+    "gp_serial": 284,
+    "epic_id": "UXN1795111",
+    "house_no": "8",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0284.jpg",
+    "crop_path": "/static/crops/card_gp_0284.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 285,
+    "epic_id": "UXN0523829",
+    "house_no": "3o",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0285.jpg",
+    "crop_path": "/static/crops/card_gp_0285.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 286,
+    "epic_id": "UXN1181460",
+    "house_no": "8",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0286.jpg",
+    "crop_path": "/static/crops/card_gp_0286.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 287,
+    "epic_id": "UXN0953019",
+    "house_no": "4/34",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0287.jpg",
+    "crop_path": "/static/crops/card_gp_0287.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 288,
+    "epic_id": "UXN1795137",
+    "house_no": "4-34",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0288.jpg",
+    "crop_path": "/static/crops/card_gp_0288.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 289,
+    "epic_id": "UXN1795129",
+    "house_no": "1795129",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0289.jpg",
+    "crop_path": "/static/crops/card_gp_0289.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 290,
+    "epic_id": "CWB1621796",
+    "house_no": "808208",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0290.jpg",
+    "crop_path": "/static/crops/card_gp_0290.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 291,
+    "epic_id": "CWB2288074",
+    "house_no": "44",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0291.jpg",
+    "crop_path": "/static/crops/card_gp_0291.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 292,
+    "epic_id": "CWB1621788",
+    "house_no": "8",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0292.jpg",
+    "crop_path": "/static/crops/card_gp_0292.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 293,
+    "epic_id": "UXN0250951",
+    "house_no": "808208",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0293.jpg",
+    "crop_path": "/static/crops/card_gp_0293.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 294,
+    "epic_id": "UXN0903667",
+    "house_no": "4-52",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0294.jpg",
+    "crop_path": "/static/crops/card_gp_0294.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 295,
+    "epic_id": "UXN1181338",
+    "house_no": "8",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0295.jpg",
+    "crop_path": "/static/crops/card_gp_0295.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 296,
+    "epic_id": "UXN1795152",
+    "house_no": "1795152",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0296.jpg",
+    "crop_path": "/static/crops/card_gp_0296.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 297,
+    "epic_id": "UXN1795145",
+    "house_no": "1795145",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0297.jpg",
+    "crop_path": "/static/crops/card_gp_0297.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 298,
+    "epic_id": "UXN0349050",
+    "house_no": "3o",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0298.jpg",
+    "crop_path": "/static/crops/card_gp_0298.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 299,
+    "epic_id": "UXN1795160",
+    "house_no": "4-35",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0299.jpg",
+    "crop_path": "/static/crops/card_gp_0299.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 300,
+    "epic_id": "UXN0121632",
+    "house_no": "3o",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0300.jpg",
+    "crop_path": "/static/crops/card_gp_0300.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 301,
+    "epic_id": "CWB1621960",
+    "house_no": "3o",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0301.jpg",
+    "crop_path": "/static/crops/card_gp_0301.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 302,
+    "epic_id": "UXN0349035",
+    "house_no": "4-35-",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0302.jpg",
+    "crop_path": "/static/crops/card_gp_0302.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 303,
+    "epic_id": "UXN0542746",
+    "house_no": "3o",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0303.jpg",
+    "crop_path": "/static/crops/card_gp_0303.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 304,
+    "epic_id": "UXN1061274",
+    "house_no": "3o",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0304.jpg",
+    "crop_path": "/static/crops/card_gp_0304.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 305,
+    "epic_id": "UXN1061290",
+    "house_no": "4-35/1",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0305.jpg",
+    "crop_path": "/static/crops/card_gp_0305.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 306,
+    "epic_id": "UXN1795186",
+    "house_no": "1795186",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0306.jpg",
+    "crop_path": "/static/crops/card_gp_0306.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 307,
+    "epic_id": "UXN1795202",
+    "house_no": "3o",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0307.jpg",
+    "crop_path": "/static/crops/card_gp_0307.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 308,
+    "epic_id": "CWB1621739",
+    "house_no": "4-31",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0308.jpg",
+    "crop_path": "/static/crops/card_gp_0308.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 309,
+    "epic_id": "CWB1621846",
+    "house_no": "88",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0309.jpg",
+    "crop_path": "/static/crops/card_gp_0309.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 310,
+    "epic_id": "CWB2835783",
+    "house_no": "2835783",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0310.jpg",
+    "crop_path": "/static/crops/card_gp_0310.jpg",
+    "page_no": 12
+  },
+  {
+    "gp_serial": 311,
+    "epic_id": "GP0311",
+    "house_no": "808",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0311.jpg",
+    "crop_path": "/static/crops/card_gp_0311.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 312,
+    "epic_id": "UXN1181387",
+    "house_no": "3o",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0312.jpg",
+    "crop_path": "/static/crops/card_gp_0312.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 313,
+    "epic_id": "UXN1061159",
+    "house_no": "88",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0313.jpg",
+    "crop_path": "/static/crops/card_gp_0313.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 314,
+    "epic_id": "UXN2273647",
+    "house_no": "808",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0314.jpg",
+    "crop_path": "/static/crops/card_gp_0314.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 315,
+    "epic_id": "UXN1795210",
+    "house_no": "808208",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0315.jpg",
+    "crop_path": "/static/crops/card_gp_0315.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 316,
+    "epic_id": "UXN0349944",
+    "house_no": "0349944",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0316.jpg",
+    "crop_path": "/static/crops/card_gp_0316.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 317,
+    "epic_id": "CWB2835841",
+    "house_no": "808",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0317.jpg",
+    "crop_path": "/static/crops/card_gp_0317.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 318,
+    "epic_id": "CWB1622257",
+    "house_no": "8082085",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0318.jpg",
+    "crop_path": "/static/crops/card_gp_0318.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 319,
+    "epic_id": "UXN2349215",
+    "house_no": "2349215",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0319.jpg",
+    "crop_path": "/static/crops/card_gp_0319.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 320,
+    "epic_id": "UXN2273589",
+    "house_no": "808",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0320.jpg",
+    "crop_path": "/static/crops/card_gp_0320.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 321,
+    "epic_id": "UXN1795285",
+    "house_no": "8082085",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0321.jpg",
+    "crop_path": "/static/crops/card_gp_0321.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 322,
+    "epic_id": "UXN1795251",
+    "house_no": "1795251",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0322.jpg",
+    "crop_path": "/static/crops/card_gp_0322.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 323,
+    "epic_id": "UXN1795277",
+    "house_no": "808",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0323.jpg",
+    "crop_path": "/static/crops/card_gp_0323.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 324,
+    "epic_id": "UXN1795269",
+    "house_no": "808208s",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0324.jpg",
+    "crop_path": "/static/crops/card_gp_0324.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 325,
+    "epic_id": "UXN1795244",
+    "house_no": "2d",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0325.jpg",
+    "crop_path": "/static/crops/card_gp_0325.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 326,
+    "epic_id": "UXN1795236",
+    "house_no": "808",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0326.jpg",
+    "crop_path": "/static/crops/card_gp_0326.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 327,
+    "epic_id": "CWB2835858",
+    "house_no": "4-39",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0327.jpg",
+    "crop_path": "/static/crops/card_gp_0327.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 328,
+    "epic_id": "UXN1795301",
+    "house_no": "2e",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0328.jpg",
+    "crop_path": "/static/crops/card_gp_0328.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 329,
+    "epic_id": "UXN1795293",
+    "house_no": "4-40",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0329.jpg",
+    "crop_path": "/static/crops/card_gp_0329.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 330,
+    "epic_id": "CWB1621952",
+    "house_no": "4-40",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0330.jpg",
+    "crop_path": "/static/crops/card_gp_0330.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 331,
+    "epic_id": "CWB1621945",
+    "house_no": "2e",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0331.jpg",
+    "crop_path": "/static/crops/card_gp_0331.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 332,
+    "epic_id": "UXN0542753",
+    "house_no": "808",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0332.jpg",
+    "crop_path": "/static/crops/card_gp_0332.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 333,
+    "epic_id": "UXN0542761",
+    "house_no": "4-40",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0333.jpg",
+    "crop_path": "/static/crops/card_gp_0333.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 334,
+    "epic_id": "UXN0349001",
+    "house_no": "2",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0334.jpg",
+    "crop_path": "/static/crops/card_gp_0334.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 335,
+    "epic_id": "GP0335",
+    "house_no": "808",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0335.jpg",
+    "crop_path": "/static/crops/card_gp_0335.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 336,
+    "epic_id": "UXN1181312",
+    "house_no": "4-40",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0336.jpg",
+    "crop_path": "/static/crops/card_gp_0336.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 337,
+    "epic_id": "UXN0121640",
+    "house_no": "3o",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0337.jpg",
+    "crop_path": "/static/crops/card_gp_0337.jpg",
+    "page_no": 13
+  },
+  {
+    "gp_serial": 338,
+    "epic_id": "UXN0139816",
+    "house_no": "0139816",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0338.jpg",
+    "crop_path": "/static/crops/card_gp_0338.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 339,
+    "epic_id": "UXN1157684",
+    "house_no": "2d",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0339.jpg",
+    "crop_path": "/static/crops/card_gp_0339.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 340,
+    "epic_id": "UXN2304608",
+    "house_no": "2304608",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0340.jpg",
+    "crop_path": "/static/crops/card_gp_0340.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 341,
+    "epic_id": "UXN1795343",
+    "house_no": "4-46",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0341.jpg",
+    "crop_path": "/static/crops/card_gp_0341.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 342,
+    "epic_id": "UXN1795335",
+    "house_no": "1-40",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0342.jpg",
+    "crop_path": "/static/crops/card_gp_0342.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 343,
+    "epic_id": "UXN0349969",
+    "house_no": "808",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0343.jpg",
+    "crop_path": "/static/crops/card_gp_0343.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 344,
+    "epic_id": "UXN1181411",
+    "house_no": "4-46",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0344.jpg",
+    "crop_path": "/static/crops/card_gp_0344.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 345,
+    "epic_id": "UXN1157718",
+    "house_no": "4-46",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0345.jpg",
+    "crop_path": "/static/crops/card_gp_0345.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 346,
+    "epic_id": "UXN2237501",
+    "house_no": "30",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0346.jpg",
+    "crop_path": "/static/crops/card_gp_0346.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 347,
+    "epic_id": "UXN0903618",
+    "house_no": "4-46/1",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0347.jpg",
+    "crop_path": "/static/crops/card_gp_0347.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 348,
+    "epic_id": "UXN1795350",
+    "house_no": "2ed",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0348.jpg",
+    "crop_path": "/static/crops/card_gp_0348.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 349,
+    "epic_id": "UXN1795368",
+    "house_no": "4-4",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0349.jpg",
+    "crop_path": "/static/crops/card_gp_0349.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 350,
+    "epic_id": "CWB2288124",
+    "house_no": "2ed",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0350.jpg",
+    "crop_path": "/static/crops/card_gp_0350.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 351,
+    "epic_id": "UXN0011890",
+    "house_no": "0",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0351.jpg",
+    "crop_path": "/static/crops/card_gp_0351.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 352,
+    "epic_id": "CWB1621929",
+    "house_no": "50",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0352.jpg",
+    "crop_path": "/static/crops/card_gp_0352.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 353,
+    "epic_id": "UXN0909095",
+    "house_no": "2d",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0353.jpg",
+    "crop_path": "/static/crops/card_gp_0353.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 354,
+    "epic_id": "UXN1061126",
+    "house_no": "1061126",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0354.jpg",
+    "crop_path": "/static/crops/card_gp_0354.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 355,
+    "epic_id": "UXN1795384",
+    "house_no": "3o",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0355.jpg",
+    "crop_path": "/static/crops/card_gp_0355.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 356,
+    "epic_id": "UXN0213892",
+    "house_no": "0213892",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0356.jpg",
+    "crop_path": "/static/crops/card_gp_0356.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 357,
+    "epic_id": "CWB1621986",
+    "house_no": "1621986",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0357.jpg",
+    "crop_path": "/static/crops/card_gp_0357.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 358,
+    "epic_id": "UXN0012054",
+    "house_no": "4-4",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0358.jpg",
+    "crop_path": "/static/crops/card_gp_0358.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 359,
+    "epic_id": "UXN1061308",
+    "house_no": "1061308",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0359.jpg",
+    "crop_path": "/static/crops/card_gp_0359.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 360,
+    "epic_id": "UXN2349736",
+    "house_no": "8",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0360.jpg",
+    "crop_path": "/static/crops/card_gp_0360.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 361,
+    "epic_id": "UXN1795392",
+    "house_no": "1795392",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0361.jpg",
+    "crop_path": "/static/crops/card_gp_0361.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 362,
+    "epic_id": "UXN1061357",
+    "house_no": "4-4",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0362.jpg",
+    "crop_path": "/static/crops/card_gp_0362.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 363,
+    "epic_id": "UXN1795400",
+    "house_no": "1/67-",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0363.jpg",
+    "crop_path": "/static/crops/card_gp_0363.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 364,
+    "epic_id": "CWB2835866",
+    "house_no": "2",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0364.jpg",
+    "crop_path": "/static/crops/card_gp_0364.jpg",
+    "page_no": 14
+  },
+  {
+    "gp_serial": 365,
+    "epic_id": "UXN0349910",
+    "house_no": "88",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0365.jpg",
+    "crop_path": "/static/crops/card_gp_0365.jpg",
+    "page_no": 15
+  },
+  {
+    "gp_serial": 366,
+    "epic_id": "UXN1157619",
+    "house_no": "1157619",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0366.jpg",
+    "crop_path": "/static/crops/card_gp_0366.jpg",
+    "page_no": 15
+  },
+  {
+    "gp_serial": 367,
+    "epic_id": "UXN1181395",
+    "house_no": "8",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0367.jpg",
+    "crop_path": "/static/crops/card_gp_0367.jpg",
+    "page_no": 15
+  },
+  {
+    "gp_serial": 368,
+    "epic_id": "UXN1795426",
+    "house_no": "4-49/3",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0368.jpg",
+    "crop_path": "/static/crops/card_gp_0368.jpg",
+    "page_no": 15
+  },
+  {
+    "gp_serial": 369,
+    "epic_id": "UXN1795418",
+    "house_no": "4-493",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0369.jpg",
+    "crop_path": "/static/crops/card_gp_0369.jpg",
+    "page_no": 15
+  },
+  {
+    "gp_serial": 370,
+    "epic_id": "UXN0251017",
+    "house_no": "1-49/5",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0370.jpg",
+    "crop_path": "/static/crops/card_gp_0370.jpg",
+    "page_no": 15
+  },
+  {
+    "gp_serial": 371,
+    "epic_id": "UXN2336857",
+    "house_no": "4-51/1",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0371.jpg",
+    "crop_path": "/static/crops/card_gp_0371.jpg",
+    "page_no": 15
+  },
+  {
+    "gp_serial": 372,
+    "epic_id": "UXN1795442",
+    "house_no": "808208",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0372.jpg",
+    "crop_path": "/static/crops/card_gp_0372.jpg",
+    "page_no": 15
+  },
+  {
+    "gp_serial": 373,
+    "epic_id": "CWB1621937",
+    "house_no": "8",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0373.jpg",
+    "crop_path": "/static/crops/card_gp_0373.jpg",
+    "page_no": 15
+  },
+  {
+    "gp_serial": 374,
+    "epic_id": "UXN0121525",
+    "house_no": "4-52",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0374.jpg",
+    "crop_path": "/static/crops/card_gp_0374.jpg",
+    "page_no": 15
+  },
+  {
+    "gp_serial": 375,
+    "epic_id": "UXN0744152",
+    "house_no": "808202",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0375.jpg",
+    "crop_path": "/static/crops/card_gp_0375.jpg",
+    "page_no": 15
+  },
+  {
+    "gp_serial": 376,
+    "epic_id": "UXN1061365",
+    "house_no": "4-52",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0376.jpg",
+    "crop_path": "/static/crops/card_gp_0376.jpg",
+    "page_no": 15
+  },
+  {
+    "gp_serial": 377,
+    "epic_id": "UXN1795467",
+    "house_no": "4-52/1",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0377.jpg",
+    "crop_path": "/static/crops/card_gp_0377.jpg",
+    "page_no": 15
+  },
+  {
+    "gp_serial": 378,
+    "epic_id": "UXN1795475",
+    "house_no": "808208",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0378.jpg",
+    "crop_path": "/static/crops/card_gp_0378.jpg",
+    "page_no": 15
+  },
+  {
+    "gp_serial": 379,
+    "epic_id": "UXN1795459",
+    "house_no": "2",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0379.jpg",
+    "crop_path": "/static/crops/card_gp_0379.jpg",
+    "page_no": 15
+  },
+  {
+    "gp_serial": 380,
+    "epic_id": "UXN0121590",
+    "house_no": "4-52/1",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0380.jpg",
+    "crop_path": "/static/crops/card_gp_0380.jpg",
+    "page_no": 15
+  },
+  {
+    "gp_serial": 381,
+    "epic_id": "UXN0454975",
+    "house_no": "2085",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0381.jpg",
+    "crop_path": "/static/crops/card_gp_0381.jpg",
+    "page_no": 15
+  },
+  {
+    "gp_serial": 382,
+    "epic_id": "UXN1061175",
+    "house_no": "4-521",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0382.jpg",
+    "crop_path": "/static/crops/card_gp_0382.jpg",
+    "page_no": 15
+  },
+  {
+    "gp_serial": 383,
+    "epic_id": "UXN1795517",
+    "house_no": "808",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0383.jpg",
+    "crop_path": "/static/crops/card_gp_0383.jpg",
+    "page_no": 15
+  },
+  {
+    "gp_serial": 384,
+    "epic_id": "UXN1795509",
+    "house_no": "8082089",
+    "ward": 3,
+    "photo_path": "/static/photos/photo_gp_0384.jpg",
+    "crop_path": "/static/crops/card_gp_0384.jpg",
+    "page_no": 15
+  },
+  {
+    "gp_serial": 385,
+    "epic_id": "UXN1795483",
+    "house_no": "1795483",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0385.jpg",
+    "crop_path": "/static/crops/card_gp_0385.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 386,
+    "epic_id": "UXN1795491",
+    "house_no": "88",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0386.jpg",
+    "crop_path": "/static/crops/card_gp_0386.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 387,
+    "epic_id": "CWB2289171",
+    "house_no": "2289171",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0387.jpg",
+    "crop_path": "/static/crops/card_gp_0387.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 388,
+    "epic_id": "UXN0121566",
+    "house_no": "5d",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0388.jpg",
+    "crop_path": "/static/crops/card_gp_0388.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 389,
+    "epic_id": "UXN1181445",
+    "house_no": "2e",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0389.jpg",
+    "crop_path": "/static/crops/card_gp_0389.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 390,
+    "epic_id": "UXN2236735",
+    "house_no": "2236735",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0390.jpg",
+    "crop_path": "/static/crops/card_gp_0390.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 391,
+    "epic_id": "UXN1795525",
+    "house_no": "1795525",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0391.jpg",
+    "crop_path": "/static/crops/card_gp_0391.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 392,
+    "epic_id": "CWB2288017",
+    "house_no": "2d",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0392.jpg",
+    "crop_path": "/static/crops/card_gp_0392.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 393,
+    "epic_id": "UXN0367565",
+    "house_no": "2",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0393.jpg",
+    "crop_path": "/static/crops/card_gp_0393.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 394,
+    "epic_id": "CWB2288116",
+    "house_no": "2ed",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0394.jpg",
+    "crop_path": "/static/crops/card_gp_0394.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 395,
+    "epic_id": "UXN0140020",
+    "house_no": "0140020",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0395.jpg",
+    "crop_path": "/static/crops/card_gp_0395.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 396,
+    "epic_id": "UXN0542779",
+    "house_no": "0542779",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0396.jpg",
+    "crop_path": "/static/crops/card_gp_0396.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 397,
+    "epic_id": "UXN0523852",
+    "house_no": "0523852",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0397.jpg",
+    "crop_path": "/static/crops/card_gp_0397.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 398,
+    "epic_id": "UXN1795541",
+    "house_no": "0",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0398.jpg",
+    "crop_path": "/static/crops/card_gp_0398.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 399,
+    "epic_id": "UXN1795533",
+    "house_no": "3o",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0399.jpg",
+    "crop_path": "/static/crops/card_gp_0399.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 400,
+    "epic_id": "UXN0250977",
+    "house_no": "2ed",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0400.jpg",
+    "crop_path": "/static/crops/card_gp_0400.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 401,
+    "epic_id": "UXN1051788",
+    "house_no": "3o",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0401.jpg",
+    "crop_path": "/static/crops/card_gp_0401.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 402,
+    "epic_id": "UXN1795566",
+    "house_no": "2eo",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0402.jpg",
+    "crop_path": "/static/crops/card_gp_0402.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 403,
+    "epic_id": "UXN1795558",
+    "house_no": "2",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0403.jpg",
+    "crop_path": "/static/crops/card_gp_0403.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 404,
+    "epic_id": "UXN1795582",
+    "house_no": "1795582",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0404.jpg",
+    "crop_path": "/static/crops/card_gp_0404.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 405,
+    "epic_id": "UXN1795574",
+    "house_no": "2",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0405.jpg",
+    "crop_path": "/static/crops/card_gp_0405.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 406,
+    "epic_id": "UXN1795590",
+    "house_no": "4-00",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0406.jpg",
+    "crop_path": "/static/crops/card_gp_0406.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 407,
+    "epic_id": "CWB2289288",
+    "house_no": "2e0",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0407.jpg",
+    "crop_path": "/static/crops/card_gp_0407.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 408,
+    "epic_id": "UXN1022870",
+    "house_no": "1022870",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0408.jpg",
+    "crop_path": "/static/crops/card_gp_0408.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 409,
+    "epic_id": "UXN2081180",
+    "house_no": "2081180",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0409.jpg",
+    "crop_path": "/static/crops/card_gp_0409.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 410,
+    "epic_id": "UXN1795616",
+    "house_no": "1795616",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0410.jpg",
+    "crop_path": "/static/crops/card_gp_0410.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 411,
+    "epic_id": "UXN1795608",
+    "house_no": "8",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0411.jpg",
+    "crop_path": "/static/crops/card_gp_0411.jpg",
+    "page_no": 16
+  },
+  {
+    "gp_serial": 412,
+    "epic_id": "UXN0121517",
+    "house_no": "8082083",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0412.jpg",
+    "crop_path": "/static/crops/card_gp_0412.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 413,
+    "epic_id": "UXN0121491",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0413.jpg",
+    "crop_path": "/static/crops/card_gp_0413.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 414,
+    "epic_id": "CWB1622125",
+    "house_no": "8082083",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0414.jpg",
+    "crop_path": "/static/crops/card_gp_0414.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 415,
+    "epic_id": "GP0415",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0415.jpg",
+    "crop_path": "/static/crops/card_gp_0415.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 416,
+    "epic_id": "UXN1795632",
+    "house_no": "4-57/1",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0416.jpg",
+    "crop_path": "/static/crops/card_gp_0416.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 417,
+    "epic_id": "UXN1795624",
+    "house_no": "8082089",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0417.jpg",
+    "crop_path": "/static/crops/card_gp_0417.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 418,
+    "epic_id": "GP0418",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0418.jpg",
+    "crop_path": "/static/crops/card_gp_0418.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 419,
+    "epic_id": "UXN2151264",
+    "house_no": "4-57/2",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0419.jpg",
+    "crop_path": "/static/crops/card_gp_0419.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 420,
+    "epic_id": "CWB2288066",
+    "house_no": "4-57/2",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0420.jpg",
+    "crop_path": "/static/crops/card_gp_0420.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 421,
+    "epic_id": "GP0421",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0421.jpg",
+    "crop_path": "/static/crops/card_gp_0421.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 422,
+    "epic_id": "UXN0121541",
+    "house_no": "8082029",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0422.jpg",
+    "crop_path": "/static/crops/card_gp_0422.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 423,
+    "epic_id": "UXN2261766",
+    "house_no": "4-57/42",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0423.jpg",
+    "crop_path": "/static/crops/card_gp_0423.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 424,
+    "epic_id": "UXN2153252",
+    "house_no": "8083",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0424.jpg",
+    "crop_path": "/static/crops/card_gp_0424.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 425,
+    "epic_id": "UXN1795657",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0425.jpg",
+    "crop_path": "/static/crops/card_gp_0425.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 426,
+    "epic_id": "UXN1795640",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0426.jpg",
+    "crop_path": "/static/crops/card_gp_0426.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 427,
+    "epic_id": "UXN1795673",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0427.jpg",
+    "crop_path": "/static/crops/card_gp_0427.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 428,
+    "epic_id": "UXN1795681",
+    "house_no": "4-61",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0428.jpg",
+    "crop_path": "/static/crops/card_gp_0428.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 429,
+    "epic_id": "UXN1795665",
+    "house_no": "808202",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0429.jpg",
+    "crop_path": "/static/crops/card_gp_0429.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 430,
+    "epic_id": "GP0430",
+    "house_no": "4-61",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0430.jpg",
+    "crop_path": "/static/crops/card_gp_0430.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 431,
+    "epic_id": "CWB2289460",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0431.jpg",
+    "crop_path": "/static/crops/card_gp_0431.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 432,
+    "epic_id": "UXN0121558",
+    "house_no": "4-61",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0432.jpg",
+    "crop_path": "/static/crops/card_gp_0432.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 433,
+    "epic_id": "CWB2835874",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0433.jpg",
+    "crop_path": "/static/crops/card_gp_0433.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 434,
+    "epic_id": "CWB2835775",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0434.jpg",
+    "crop_path": "/static/crops/card_gp_0434.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 435,
+    "epic_id": "UXN1022888",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0435.jpg",
+    "crop_path": "/static/crops/card_gp_0435.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 436,
+    "epic_id": "GP0436",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0436.jpg",
+    "crop_path": "/static/crops/card_gp_0436.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 437,
+    "epic_id": "UXN2237543",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0437.jpg",
+    "crop_path": "/static/crops/card_gp_0437.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 438,
+    "epic_id": "UXN0348979",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0438.jpg",
+    "crop_path": "/static/crops/card_gp_0438.jpg",
+    "page_no": 17
+  },
+  {
+    "gp_serial": 439,
+    "epic_id": "UXN2251650",
+    "house_no": "808208",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0439.jpg",
+    "crop_path": "/static/crops/card_gp_0439.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 440,
+    "epic_id": "UXN1181304",
+    "house_no": "4-62",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0440.jpg",
+    "crop_path": "/static/crops/card_gp_0440.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 441,
+    "epic_id": "UXN0350066",
+    "house_no": "4-62",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0441.jpg",
+    "crop_path": "/static/crops/card_gp_0441.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 442,
+    "epic_id": "GP0442",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0442.jpg",
+    "crop_path": "/static/crops/card_gp_0442.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 443,
+    "epic_id": "UXN1795715",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0443.jpg",
+    "crop_path": "/static/crops/card_gp_0443.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 444,
+    "epic_id": "CWB1622265",
+    "house_no": "4-62",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0444.jpg",
+    "crop_path": "/static/crops/card_gp_0444.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 445,
+    "epic_id": "GP0445",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0445.jpg",
+    "crop_path": "/static/crops/card_gp_0445.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 446,
+    "epic_id": "CWB2835759",
+    "house_no": "4-64",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0446.jpg",
+    "crop_path": "/static/crops/card_gp_0446.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 447,
+    "epic_id": "UXN1022854",
+    "house_no": "4-68",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0447.jpg",
+    "crop_path": "/static/crops/card_gp_0447.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 448,
+    "epic_id": "GP0448",
+    "house_no": "802",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0448.jpg",
+    "crop_path": "/static/crops/card_gp_0448.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 449,
+    "epic_id": "UXN1181502",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0449.jpg",
+    "crop_path": "/static/crops/card_gp_0449.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 450,
+    "epic_id": "UXN1796101",
+    "house_no": "4-72",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0450.jpg",
+    "crop_path": "/static/crops/card_gp_0450.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 451,
+    "epic_id": "GP0451",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0451.jpg",
+    "crop_path": "/static/crops/card_gp_0451.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 452,
+    "epic_id": "UXN1796077",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0452.jpg",
+    "crop_path": "/static/crops/card_gp_0452.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 453,
+    "epic_id": "UXN0213736",
+    "house_no": "808202s",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0453.jpg",
+    "crop_path": "/static/crops/card_gp_0453.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 454,
+    "epic_id": "GP0454",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0454.jpg",
+    "crop_path": "/static/crops/card_gp_0454.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 455,
+    "epic_id": "UXN0909103",
+    "house_no": "4-73",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0455.jpg",
+    "crop_path": "/static/crops/card_gp_0455.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 456,
+    "epic_id": "UXN2349256",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0456.jpg",
+    "crop_path": "/static/crops/card_gp_0456.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 457,
+    "epic_id": "GP0457",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0457.jpg",
+    "crop_path": "/static/crops/card_gp_0457.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 458,
+    "epic_id": "UXN1795731",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0458.jpg",
+    "crop_path": "/static/crops/card_gp_0458.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 459,
+    "epic_id": "UXN1795756",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0459.jpg",
+    "crop_path": "/static/crops/card_gp_0459.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 460,
+    "epic_id": "GP0460",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0460.jpg",
+    "crop_path": "/static/crops/card_gp_0460.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 461,
+    "epic_id": "GP0461",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0461.jpg",
+    "crop_path": "/static/crops/card_gp_0461.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 462,
+    "epic_id": "UXN1795723",
+    "house_no": "4-73/1",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0462.jpg",
+    "crop_path": "/static/crops/card_gp_0462.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 463,
+    "epic_id": "GP0463",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0463.jpg",
+    "crop_path": "/static/crops/card_gp_0463.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 464,
+    "epic_id": "GP0464",
+    "house_no": "8082029",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0464.jpg",
+    "crop_path": "/static/crops/card_gp_0464.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 465,
+    "epic_id": "UXN0012153",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0465.jpg",
+    "crop_path": "/static/crops/card_gp_0465.jpg",
+    "page_no": 18
+  },
+  {
+    "gp_serial": 466,
+    "epic_id": "UXN0350124",
+    "house_no": "8082085",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0466.jpg",
+    "crop_path": "/static/crops/card_gp_0466.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 467,
+    "epic_id": "UXN1795798",
+    "house_no": "4-/4",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0467.jpg",
+    "crop_path": "/static/crops/card_gp_0467.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 468,
+    "epic_id": "UXN1795772",
+    "house_no": "8",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0468.jpg",
+    "crop_path": "/static/crops/card_gp_0468.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 469,
+    "epic_id": "UXN1795780",
+    "house_no": "2",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0469.jpg",
+    "crop_path": "/static/crops/card_gp_0469.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 470,
+    "epic_id": "UXN0012179",
+    "house_no": "4-74",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0470.jpg",
+    "crop_path": "/static/crops/card_gp_0470.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 471,
+    "epic_id": "UXN0701771",
+    "house_no": "808208",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0471.jpg",
+    "crop_path": "/static/crops/card_gp_0471.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 472,
+    "epic_id": "UXN1022862",
+    "house_no": "4-74",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0472.jpg",
+    "crop_path": "/static/crops/card_gp_0472.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 473,
+    "epic_id": "UXN1061381",
+    "house_no": "8082089",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0473.jpg",
+    "crop_path": "/static/crops/card_gp_0473.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 474,
+    "epic_id": "CWB2288058",
+    "house_no": "4-75",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0474.jpg",
+    "crop_path": "/static/crops/card_gp_0474.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 475,
+    "epic_id": "UXN0012187",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0475.jpg",
+    "crop_path": "/static/crops/card_gp_0475.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 476,
+    "epic_id": "UXN1795822",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0476.jpg",
+    "crop_path": "/static/crops/card_gp_0476.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 477,
+    "epic_id": "UXN1795814",
+    "house_no": "0s",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0477.jpg",
+    "crop_path": "/static/crops/card_gp_0477.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 478,
+    "epic_id": "UXN1181494",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0478.jpg",
+    "crop_path": "/static/crops/card_gp_0478.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 479,
+    "epic_id": "UXN2273605",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0479.jpg",
+    "crop_path": "/static/crops/card_gp_0479.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 480,
+    "epic_id": "UXN2273506",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0480.jpg",
+    "crop_path": "/static/crops/card_gp_0480.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 481,
+    "epic_id": "CWB2288025",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0481.jpg",
+    "crop_path": "/static/crops/card_gp_0481.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 482,
+    "epic_id": "CWB2289098",
+    "house_no": "4-76/1",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0482.jpg",
+    "crop_path": "/static/crops/card_gp_0482.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 483,
+    "epic_id": "CWB2289064",
+    "house_no": "80820w",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0483.jpg",
+    "crop_path": "/static/crops/card_gp_0483.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 484,
+    "epic_id": "UXN1061332",
+    "house_no": "4-76/1",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0484.jpg",
+    "crop_path": "/static/crops/card_gp_0484.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 485,
+    "epic_id": "UXN1181320",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0485.jpg",
+    "crop_path": "/static/crops/card_gp_0485.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 486,
+    "epic_id": "UXN2077972",
+    "house_no": "80820",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0486.jpg",
+    "crop_path": "/static/crops/card_gp_0486.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 487,
+    "epic_id": "UXN2068450",
+    "house_no": "5-5",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0487.jpg",
+    "crop_path": "/static/crops/card_gp_0487.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 488,
+    "epic_id": "UXN2259455",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0488.jpg",
+    "crop_path": "/static/crops/card_gp_0488.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 489,
+    "epic_id": "UXN1022896",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0489.jpg",
+    "crop_path": "/static/crops/card_gp_0489.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 490,
+    "epic_id": "UXN2237568",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0490.jpg",
+    "crop_path": "/static/crops/card_gp_0490.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 491,
+    "epic_id": "UXN2250926",
+    "house_no": "12-37",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0491.jpg",
+    "crop_path": "/static/crops/card_gp_0491.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 492,
+    "epic_id": "UXN0903808",
+    "house_no": "8082085",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0492.jpg",
+    "crop_path": "/static/crops/card_gp_0492.jpg",
+    "page_no": 19
+  },
+  {
+    "gp_serial": 493,
+    "epic_id": "UXN2299121",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0493.jpg",
+    "crop_path": "/static/crops/card_gp_0493.jpg",
+    "page_no": 20
+  },
+  {
+    "gp_serial": 494,
+    "epic_id": "UXN0909129",
+    "house_no": "76-",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0494.jpg",
+    "crop_path": "/static/crops/card_gp_0494.jpg",
+    "page_no": 20
+  },
+  {
+    "gp_serial": 495,
+    "epic_id": "UXN1101401",
+    "house_no": "0",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0495.jpg",
+    "crop_path": "/static/crops/card_gp_0495.jpg",
+    "page_no": 20
+  },
+  {
+    "gp_serial": 496,
+    "epic_id": "UXN1101393",
+    "house_no": "3",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0496.jpg",
+    "crop_path": "/static/crops/card_gp_0496.jpg",
+    "page_no": 20
+  },
+  {
+    "gp_serial": 497,
+    "epic_id": "UXN1101385",
+    "house_no": "3o",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0497.jpg",
+    "crop_path": "/static/crops/card_gp_0497.jpg",
+    "page_no": 20
+  },
+  {
+    "gp_serial": 498,
+    "epic_id": "UXN2401156",
+    "house_no": "808208",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0498.jpg",
+    "crop_path": "/static/crops/card_gp_0498.jpg",
+    "page_no": 20
+  },
+  {
+    "gp_serial": 499,
+    "epic_id": "UXN1022821",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0499.jpg",
+    "crop_path": "/static/crops/card_gp_0499.jpg",
+    "page_no": 20
+  },
+  {
+    "gp_serial": 500,
+    "epic_id": "UXN0903741",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0500.jpg",
+    "crop_path": "/static/crops/card_gp_0500.jpg",
+    "page_no": 20
+  },
+  {
+    "gp_serial": 501,
+    "epic_id": "UXN0903568",
+    "house_no": "20",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0501.jpg",
+    "crop_path": "/static/crops/card_gp_0501.jpg",
+    "page_no": 20
+  },
+  {
+    "gp_serial": 502,
+    "epic_id": "UXN0909145",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0502.jpg",
+    "crop_path": "/static/crops/card_gp_0502.jpg",
+    "page_no": 20
+  },
+  {
+    "gp_serial": 503,
+    "epic_id": "UXN1022847",
+    "house_no": "8082089",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0503.jpg",
+    "crop_path": "/static/crops/card_gp_0503.jpg",
+    "page_no": 20
+  },
+  {
+    "gp_serial": 504,
+    "epic_id": "UXN2250918",
+    "house_no": "00s",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0504.jpg",
+    "crop_path": "/static/crops/card_gp_0504.jpg",
+    "page_no": 20
+  },
+  {
+    "gp_serial": 505,
+    "epic_id": "UXN2273514",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0505.jpg",
+    "crop_path": "/static/crops/card_gp_0505.jpg",
+    "page_no": 20
+  },
+  {
+    "gp_serial": 506,
+    "epic_id": "UXN0617951",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0506.jpg",
+    "crop_path": "/static/crops/card_gp_0506.jpg",
+    "page_no": 20
+  },
+  {
+    "gp_serial": 507,
+    "epic_id": "UXN2273621",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0507.jpg",
+    "crop_path": "/static/crops/card_gp_0507.jpg",
+    "page_no": 20
+  },
+  {
+    "gp_serial": 508,
+    "epic_id": "UXN0903709",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0508.jpg",
+    "crop_path": "/static/crops/card_gp_0508.jpg",
+    "page_no": 20
+  },
+  {
+    "gp_serial": 509,
+    "epic_id": "UXN2250884",
+    "house_no": "2-11",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0509.jpg",
+    "crop_path": "/static/crops/card_gp_0509.jpg",
+    "page_no": 20
+  },
+  {
+    "gp_serial": 510,
+    "epic_id": "UXN2238939",
+    "house_no": "808202",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0510.jpg",
+    "crop_path": "/static/crops/card_gp_0510.jpg",
+    "page_no": 20
+  },
+  {
+    "gp_serial": 511,
+    "epic_id": "UXN2250892",
+    "house_no": "808",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0511.jpg",
+    "crop_path": "/static/crops/card_gp_0511.jpg",
+    "page_no": 20
+  },
+  {
+    "gp_serial": 512,
+    "epic_id": "UXN2401149",
+    "house_no": "2-14",
+    "ward": 4,
+    "photo_path": "/static/photos/photo_gp_0512.jpg",
+    "crop_path": "/static/crops/card_gp_0512.jpg",
+    "page_no": 20
+  },
+  {
+    "gp_serial": 513,
+    "epic_id": "UXN1061191",
+    "house_no": "2-18",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0513.jpg",
+    "crop_path": "/static/crops/card_gp_0513.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 514,
+    "epic_id": "UXN1795830",
+    "house_no": "1795830",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0514.jpg",
+    "crop_path": "/static/crops/card_gp_0514.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 515,
+    "epic_id": "UXN0903691",
+    "house_no": "0903691",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0515.jpg",
+    "crop_path": "/static/crops/card_gp_0515.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 516,
+    "epic_id": "UXN1157726",
+    "house_no": "3-22",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0516.jpg",
+    "crop_path": "/static/crops/card_gp_0516.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 517,
+    "epic_id": "UXN1157734",
+    "house_no": "8082085",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0517.jpg",
+    "crop_path": "/static/crops/card_gp_0517.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 518,
+    "epic_id": "UXN1001122",
+    "house_no": "1001122",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0518.jpg",
+    "crop_path": "/static/crops/card_gp_0518.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 519,
+    "epic_id": "UXN2216737",
+    "house_no": "4-4/A",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0519.jpg",
+    "crop_path": "/static/crops/card_gp_0519.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 520,
+    "epic_id": "UXN1795848",
+    "house_no": "808208",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0520.jpg",
+    "crop_path": "/static/crops/card_gp_0520.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 521,
+    "epic_id": "UXN1795855",
+    "house_no": "2",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0521.jpg",
+    "crop_path": "/static/crops/card_gp_0521.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 522,
+    "epic_id": "CWB2288165",
+    "house_no": "4-63",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0522.jpg",
+    "crop_path": "/static/crops/card_gp_0522.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 523,
+    "epic_id": "CWB2288132",
+    "house_no": "808205",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0523.jpg",
+    "crop_path": "/static/crops/card_gp_0523.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 524,
+    "epic_id": "UXN0523845",
+    "house_no": "0523845",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0524.jpg",
+    "crop_path": "/static/crops/card_gp_0524.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 525,
+    "epic_id": "UXN0523860",
+    "house_no": "4-63",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0525.jpg",
+    "crop_path": "/static/crops/card_gp_0525.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 526,
+    "epic_id": "UXN1795871",
+    "house_no": "808320w",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0526.jpg",
+    "crop_path": "/static/crops/card_gp_0526.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 527,
+    "epic_id": "UXN1795863",
+    "house_no": "1795863",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0527.jpg",
+    "crop_path": "/static/crops/card_gp_0527.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 528,
+    "epic_id": "UXN0250993",
+    "house_no": "4-64/1",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0528.jpg",
+    "crop_path": "/static/crops/card_gp_0528.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 529,
+    "epic_id": "UXN1181353",
+    "house_no": "808208",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0529.jpg",
+    "crop_path": "/static/crops/card_gp_0529.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 530,
+    "epic_id": "UXN1181379",
+    "house_no": "2o",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0530.jpg",
+    "crop_path": "/static/crops/card_gp_0530.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 531,
+    "epic_id": "UXN1795889",
+    "house_no": "4-65",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0531.jpg",
+    "crop_path": "/static/crops/card_gp_0531.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 532,
+    "epic_id": "UXN1795897",
+    "house_no": "4-6",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0532.jpg",
+    "crop_path": "/static/crops/card_gp_0532.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 533,
+    "epic_id": "CWB2289221",
+    "house_no": "2289221",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0533.jpg",
+    "crop_path": "/static/crops/card_gp_0533.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 534,
+    "epic_id": "UXN1795913",
+    "house_no": "808",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0534.jpg",
+    "crop_path": "/static/crops/card_gp_0534.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 535,
+    "epic_id": "CWB2288108",
+    "house_no": "4-00",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0535.jpg",
+    "crop_path": "/static/crops/card_gp_0535.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 536,
+    "epic_id": "CWB2288223",
+    "house_no": "2d",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0536.jpg",
+    "crop_path": "/static/crops/card_gp_0536.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 537,
+    "epic_id": "CWB2288231",
+    "house_no": "4-66",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0537.jpg",
+    "crop_path": "/static/crops/card_gp_0537.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 538,
+    "epic_id": "UXN0195610",
+    "house_no": "4-66",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0538.jpg",
+    "crop_path": "/static/crops/card_gp_0538.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 539,
+    "epic_id": "UXN0617969",
+    "house_no": "2d",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0539.jpg",
+    "crop_path": "/static/crops/card_gp_0539.jpg",
+    "page_no": 21
+  },
+  {
+    "gp_serial": 540,
+    "epic_id": "UXN0697011",
+    "house_no": "1-00/1",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0540.jpg",
+    "crop_path": "/static/crops/card_gp_0540.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 541,
+    "epic_id": "UXN2273407",
+    "house_no": "2273407",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0541.jpg",
+    "crop_path": "/static/crops/card_gp_0541.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 542,
+    "epic_id": "UXN2273399",
+    "house_no": "8",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0542.jpg",
+    "crop_path": "/static/crops/card_gp_0542.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 543,
+    "epic_id": "UXN1795921",
+    "house_no": "808",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0543.jpg",
+    "crop_path": "/static/crops/card_gp_0543.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 544,
+    "epic_id": "UXN0121582",
+    "house_no": "808208s",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0544.jpg",
+    "crop_path": "/static/crops/card_gp_0544.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 545,
+    "epic_id": "UXN0012096",
+    "house_no": "80820w",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0545.jpg",
+    "crop_path": "/static/crops/card_gp_0545.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 546,
+    "epic_id": "UXN1795939",
+    "house_no": "808203",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0546.jpg",
+    "crop_path": "/static/crops/card_gp_0546.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 547,
+    "epic_id": "CWB2288140",
+    "house_no": "4-66-2",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0547.jpg",
+    "crop_path": "/static/crops/card_gp_0547.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 548,
+    "epic_id": "CWB2289056",
+    "house_no": "1-66/2",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0548.jpg",
+    "crop_path": "/static/crops/card_gp_0548.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 549,
+    "epic_id": "UXN1181403",
+    "house_no": "4-66/3",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0549.jpg",
+    "crop_path": "/static/crops/card_gp_0549.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 550,
+    "epic_id": "UXN1795970",
+    "house_no": "808208",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0550.jpg",
+    "crop_path": "/static/crops/card_gp_0550.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 551,
+    "epic_id": "UXN1795962",
+    "house_no": "808208",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0551.jpg",
+    "crop_path": "/static/crops/card_gp_0551.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 552,
+    "epic_id": "UXN1795954",
+    "house_no": "80820",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0552.jpg",
+    "crop_path": "/static/crops/card_gp_0552.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 553,
+    "epic_id": "UXN1795996",
+    "house_no": "80832085",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0553.jpg",
+    "crop_path": "/static/crops/card_gp_0553.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 554,
+    "epic_id": "UXN1796002",
+    "house_no": "1-60",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0554.jpg",
+    "crop_path": "/static/crops/card_gp_0554.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 555,
+    "epic_id": "UXN1795988",
+    "house_no": "808",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0555.jpg",
+    "crop_path": "/static/crops/card_gp_0555.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 556,
+    "epic_id": "UXN0012138",
+    "house_no": "4-68",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0556.jpg",
+    "crop_path": "/static/crops/card_gp_0556.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 557,
+    "epic_id": "UXN0012120",
+    "house_no": "808208s",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0557.jpg",
+    "crop_path": "/static/crops/card_gp_0557.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 558,
+    "epic_id": "UXN0012104",
+    "house_no": "4-68",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0558.jpg",
+    "crop_path": "/static/crops/card_gp_0558.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 559,
+    "epic_id": "UXN0012112",
+    "house_no": "808208",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0559.jpg",
+    "crop_path": "/static/crops/card_gp_0559.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 560,
+    "epic_id": "UXN0661330",
+    "house_no": "808208",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0560.jpg",
+    "crop_path": "/static/crops/card_gp_0560.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 561,
+    "epic_id": "CWB2288199",
+    "house_no": "808",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0561.jpg",
+    "crop_path": "/static/crops/card_gp_0561.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 562,
+    "epic_id": "UXN0195628",
+    "house_no": "4-69",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0562.jpg",
+    "crop_path": "/static/crops/card_gp_0562.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 563,
+    "epic_id": "UXN0195669",
+    "house_no": "4-09",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0563.jpg",
+    "crop_path": "/static/crops/card_gp_0563.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 564,
+    "epic_id": "UXN0012146",
+    "house_no": "80202",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0564.jpg",
+    "crop_path": "/static/crops/card_gp_0564.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 565,
+    "epic_id": "UXN0350017",
+    "house_no": "4-69",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0565.jpg",
+    "crop_path": "/static/crops/card_gp_0565.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 566,
+    "epic_id": "UXN1796044",
+    "house_no": "4-70",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0566.jpg",
+    "crop_path": "/static/crops/card_gp_0566.jpg",
+    "page_no": 22
+  },
+  {
+    "gp_serial": 567,
+    "epic_id": "UXN1796028",
+    "house_no": "808202",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0567.jpg",
+    "crop_path": "/static/crops/card_gp_0567.jpg",
+    "page_no": 23
+  },
+  {
+    "gp_serial": 568,
+    "epic_id": "UXN1796036",
+    "house_no": "1796036",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0568.jpg",
+    "crop_path": "/static/crops/card_gp_0568.jpg",
+    "page_no": 23
+  },
+  {
+    "gp_serial": 569,
+    "epic_id": "CWB2288173",
+    "house_no": "2d",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0569.jpg",
+    "crop_path": "/static/crops/card_gp_0569.jpg",
+    "page_no": 23
+  },
+  {
+    "gp_serial": 570,
+    "epic_id": "CWB2288207",
+    "house_no": "80820s",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0570.jpg",
+    "crop_path": "/static/crops/card_gp_0570.jpg",
+    "page_no": 23
+  },
+  {
+    "gp_serial": 571,
+    "epic_id": "UXN1796069",
+    "house_no": "4-71",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0571.jpg",
+    "crop_path": "/static/crops/card_gp_0571.jpg",
+    "page_no": 23
+  },
+  {
+    "gp_serial": 572,
+    "epic_id": "UXN0121574",
+    "house_no": "8082085",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0572.jpg",
+    "crop_path": "/static/crops/card_gp_0572.jpg",
+    "page_no": 23
+  },
+  {
+    "gp_serial": 573,
+    "epic_id": "UXN1181361",
+    "house_no": "808",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0573.jpg",
+    "crop_path": "/static/crops/card_gp_0573.jpg",
+    "page_no": 23
+  },
+  {
+    "gp_serial": 574,
+    "epic_id": "UXN1223171",
+    "house_no": "808",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0574.jpg",
+    "crop_path": "/static/crops/card_gp_0574.jpg",
+    "page_no": 23
+  },
+  {
+    "gp_serial": 575,
+    "epic_id": "UXN2274074",
+    "house_no": "4/6/2",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0575.jpg",
+    "crop_path": "/static/crops/card_gp_0575.jpg",
+    "page_no": 23
+  },
+  {
+    "gp_serial": 576,
+    "epic_id": "UXN0903725",
+    "house_no": "239",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0576.jpg",
+    "crop_path": "/static/crops/card_gp_0576.jpg",
+    "page_no": 23
+  },
+  {
+    "gp_serial": 577,
+    "epic_id": "UXN2274090",
+    "house_no": "476/2",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0577.jpg",
+    "crop_path": "/static/crops/card_gp_0577.jpg",
+    "page_no": 23
+  },
+  {
+    "gp_serial": 578,
+    "epic_id": "UXN2299626",
+    "house_no": "8082085",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0578.jpg",
+    "crop_path": "/static/crops/card_gp_0578.jpg",
+    "page_no": 23
+  },
+  {
+    "gp_serial": 579,
+    "epic_id": "UXN0903584",
+    "house_no": "12",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0579.jpg",
+    "crop_path": "/static/crops/card_gp_0579.jpg",
+    "page_no": 23
+  },
+  {
+    "gp_serial": 580,
+    "epic_id": "UXN1178441",
+    "house_no": "808",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0580.jpg",
+    "crop_path": "/static/crops/card_gp_0580.jpg",
+    "page_no": 23
+  },
+  {
+    "gp_serial": 581,
+    "epic_id": "UXN1143734",
+    "house_no": "1-98",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0581.jpg",
+    "crop_path": "/static/crops/card_gp_0581.jpg",
+    "page_no": 23
+  },
+  {
+    "gp_serial": 582,
+    "epic_id": "UXN2054427",
+    "house_no": "808",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0582.jpg",
+    "crop_path": "/static/crops/card_gp_0582.jpg",
+    "page_no": 23
+  },
+  {
+    "gp_serial": 583,
+    "epic_id": "UXN2087559",
+    "house_no": "0w",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0583.jpg",
+    "crop_path": "/static/crops/card_gp_0583.jpg",
+    "page_no": 23
+  },
+  {
+    "gp_serial": 584,
+    "epic_id": "UXN2089712",
+    "house_no": "2-43",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0584.jpg",
+    "crop_path": "/static/crops/card_gp_0584.jpg",
+    "page_no": 23
+  },
+  {
+    "gp_serial": 585,
+    "epic_id": "UXN2054443",
+    "house_no": "2-45",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0585.jpg",
+    "crop_path": "/static/crops/card_gp_0585.jpg",
+    "page_no": 23
+  },
+  {
+    "gp_serial": 586,
+    "epic_id": "UXN2085611",
+    "house_no": "2-74",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0586.jpg",
+    "crop_path": "/static/crops/card_gp_0586.jpg",
+    "page_no": 23
+  },
+  {
+    "gp_serial": 587,
+    "epic_id": "UXN2054419",
+    "house_no": "808208s",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0587.jpg",
+    "crop_path": "/static/crops/card_gp_0587.jpg",
+    "page_no": 23
+  },
+  {
+    "gp_serial": 588,
+    "epic_id": "UXN2345783",
+    "house_no": "808",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0588.jpg",
+    "crop_path": "/static/crops/card_gp_0588.jpg",
+    "page_no": 23
+  },
+  {
+    "gp_serial": 589,
+    "epic_id": "UXN2085629",
+    "house_no": "808",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0589.jpg",
+    "crop_path": "/static/crops/card_gp_0589.jpg",
+    "page_no": 23
+  },
+  {
+    "gp_serial": 590,
+    "epic_id": "UXN1064757",
+    "house_no": "3-32",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0590.jpg",
+    "crop_path": "/static/crops/card_gp_0590.jpg",
+    "page_no": 23
+  },
+  {
+    "gp_serial": 591,
+    "epic_id": "UXN1177781",
+    "house_no": "3-34",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0591.jpg",
+    "crop_path": "/static/crops/card_gp_0591.jpg",
+    "page_no": 23
+  },
+  {
+    "gp_serial": 592,
+    "epic_id": "UXN2166791",
+    "house_no": "3-38",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0592.jpg",
+    "crop_path": "/static/crops/card_gp_0592.jpg",
+    "page_no": 23
+  },
+  {
+    "gp_serial": 593,
+    "epic_id": "UXN0905747",
+    "house_no": "8082085",
+    "ward": 5,
+    "photo_path": "/static/photos/photo_gp_0593.jpg",
+    "crop_path": "/static/crops/card_gp_0593.jpg",
+    "page_no": 23
+  }
+]

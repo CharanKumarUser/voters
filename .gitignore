@@ -1,0 +1,22 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary test screenshots in root
+/*.png
+/*.jpg
+/*.js
+/*.ps1
+
+# Raw PDFs (not needed for running the web app)
+/*.pdf
+
+# Temporary montages and unused crops
+scratch_montages/
+static/crops_new/
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.log
