@@ -458,34 +458,122 @@
       box-shadow: 0 3px 5px rgba(0, 0, 0, 0.04);
     }
 
-    /* CARD STATUS HIGHLIGHTS */
-    .voter-card.card-tdp {
-      border-left: 5px solid #F59E0B;
-      background: #FFFEFA;
+    
+    /* CARD STATUS HIGHLIGHTS (STRONG VISUAL INDICATION) */
+    .voter-card.card-tdp,
+    .vote-card.card-tdp {
+      border-left: 6px solid #F59E0B !important;
+      border-top-color: #FDE68A !important;
+      background: #FFFDF5 !important;
     }
 
-    .voter-card.card-ycp {
-      border-left: 5px solid #2563EB;
-      background: #FAFCFF;
+    .voter-card.card-ycp,
+    .vote-card.card-ycp {
+      border-left: 6px solid #2563EB !important;
+      border-top-color: #BFDBFE !important;
+      background: #F8FAFF !important;
     }
 
-    .voter-card.card-neutral {
-      border-left: 5px solid #64748B;
-      background: #F8FAFC;
+    .voter-card.card-neutral,
+    .vote-card.card-neutral {
+      border-left: 6px solid #64748B !important;
+      background: #F8FAFC !important;
     }
 
-    .voter-card.card-dead {
-      border-left: 5px solid #DC2626;
-      background: #FEF8F8;
+    .voter-card.card-dead,
+    .vote-card.card-dead {
+      border-left: 6px solid #DC2626 !important;
+      background: #FEF2F2 !important;
       opacity: 0.85;
     }
 
-    .voter-card.card-unknown {
-      border-left: 5px solid #7C3AED;
-      background: #FCFAFF;
+    .voter-card.card-unknown,
+    .vote-card.card-unknown {
+      border-left: 6px solid #7C3AED !important;
+      background: #FAF5FF !important;
     }
 
-    /* CARD TOP ROW */
+    /* ACTIVE BUTTON STYLING */
+    .btn-status.active-tdp {
+      background: #F59E0B !important;
+      color: #FFFFFF !important;
+      border-color: #D97706 !important;
+      font-weight: 900 !important;
+      box-shadow: 0 1px 3px rgba(245, 158, 11, 0.4) !important;
+    }
+
+    .btn-status.active-ycp {
+      background: #2563EB !important;
+      color: #FFFFFF !important;
+      border-color: #1D4ED8 !important;
+      font-weight: 900 !important;
+      box-shadow: 0 1px 3px rgba(37, 99, 235, 0.4) !important;
+    }
+
+    .btn-status.active-neutral {
+      background: #475569 !important;
+      color: #FFFFFF !important;
+      border-color: #334155 !important;
+      font-weight: 900 !important;
+    }
+
+    .btn-status.active-dead {
+      background: #DC2626 !important;
+      color: #FFFFFF !important;
+      border-color: #B91C1C !important;
+      font-weight: 900 !important;
+    }
+
+    .btn-status.active-unknown {
+      background: #7C3AED !important;
+      color: #FFFFFF !important;
+      border-color: #6D28D9 !important;
+      font-weight: 900 !important;
+    }
+
+    /* FLOATING RESUME / BACK TO LAST MARKED VOTER BUTTON */
+    .floating-resume-btn {
+      position: fixed;
+      bottom: 56px;
+      right: 14px;
+      background: #0F172A;
+      color: #FFFFFF;
+      border: 2px solid #3B82F6;
+      border-radius: 26px;
+      padding: 8px 15px;
+      font-size: 11.5px;
+      font-weight: 800;
+      display: none;
+      align-items: center;
+      gap: 6px;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.45), 0 0 12px rgba(59, 130, 246, 0.5);
+      z-index: 9999;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      touch-action: manipulation;
+    }
+
+    .floating-resume-btn:hover {
+      background: #1E293B;
+      border-color: #60A5FA;
+      transform: translateY(-2px);
+    }
+
+    .floating-resume-btn:active {
+      transform: scale(0.95);
+    }
+
+    @keyframes cardTargetPulse {
+      0% { outline: 3px solid #2563EB; box-shadow: 0 0 0 4px rgba(37,99,235,0.4); }
+      50% { outline: 3px solid #F59E0B; box-shadow: 0 0 0 8px rgba(245,158,11,0.5); }
+      100% { outline: none; box-shadow: none; }
+    }
+
+    .target-pulse {
+      animation: cardTargetPulse 1.8s ease-out;
+    }
+
+/* CARD TOP ROW */
     .card-top {
       display: flex;
       align-items: center;
@@ -939,25 +1027,30 @@
 
       /* TOOLBAR ON MOBILE */
       .toolbar-box {
-        padding: 7px 8px !important;
+        padding: 6px 8px !important;
         margin-bottom: 8px !important;
         border-radius: 8px !important;
       }
 
       .toolbar-row {
+        display: flex !important;
         flex-direction: column !important;
         align-items: stretch !important;
         gap: 6px !important;
+        width: 100% !important;
       }
 
       .search-wrapper {
         width: 100% !important;
         flex: none !important;
+        position: relative !important;
       }
 
       .search-input {
+        width: 100% !important;
         padding: 7px 28px 7px 30px !important;
         font-size: 12px !important;
+        box-sizing: border-box !important;
       }
 
       .search-icon {
@@ -965,54 +1058,28 @@
         left: 9px !important;
       }
 
-      .mobile-filter-toggle-btn {
-        display: inline-flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-        width: 32px !important;
-        height: 32px !important;
-        border-radius: 6px !important;
-        background: #F1F5F9 !important;
-        border: 1px solid #CBD5E1 !important;
-        color: #475569 !important;
-        cursor: pointer !important;
-        flex-shrink: 0 !important;
-        touch-action: manipulation !important;
-      }
-
-      .mobile-filter-toggle-btn.active {
-        background: #2563EB !important;
-        border-color: #1D4ED8 !important;
-        color: #FFFFFF !important;
-      }
-
-      /* 2-COLUMN BALANCED FILTER DROPDOWNS (COLLAPSED BY DEFAULT ON MOBILE) */
+      /* 2-COLUMN BALANCED FILTER DROPDOWNS ON MOBILE */
       .filter-group {
-        display: none !important;
-      }
-
-      .filter-group.show-mobile {
         display: grid !important;
         grid-template-columns: 1fr 1fr !important;
         gap: 4px !important;
         width: 100% !important;
-        margin-top: 4px !important;
+        box-sizing: border-box !important;
       }
 
       .filter-select {
         width: 100% !important;
         min-width: 0 !important;
-        padding: 6px 5px !important;
-        font-size: 11px !important;
-        height: 32px !important;
+        padding: 5px 4px !important;
+        font-size: 10.5px !important;
+        height: 30px !important;
+        box-sizing: border-box !important;
       }
 
       #section-filter {
         grid-column: span 2 !important;
-        order: 5 !important;
       }
-
-      /* FILTER PILLS (SMOOTH HORIZONTAL SCROLL) */
+/* FILTER PILLS (SMOOTH HORIZONTAL SCROLL) */
       .filter-pills-container {
         margin-top: 5px !important;
         gap: 4px !important;
@@ -1442,24 +1509,18 @@
     <div class="toolbar-box">
       <div class="toolbar-row">
 
-        <!-- Search & Filter Toggle on Mobile -->
-        <div style="display: flex; gap: 6px; width: 100%; align-items: center; flex: 1 1 240px;">
-          <div class="search-wrapper" style="flex: 1;">
-            <i class="fa-solid fa-magnifying-glass search-icon"></i>
-            <input type="text" id="search-input" placeholder="Search Name, EPIC, House No, GP Serial #..."
-              class="search-input">
-            <button id="clear-search-btn" class="clear-search-btn" style="display: none;">
-              <i class="fa-solid fa-circle-xmark"></i>
-            </button>
-          </div>
-          <button id="mobile-filter-toggle" class="mobile-filter-toggle-btn" onclick="toggleMobileFilterDrawer()" title="Filter options">
-            <i class="fa-solid fa-sliders"></i>
+        <!-- Search -->
+        <div class="search-wrapper">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" id="search-input" placeholder="Search Name, EPIC, House No, GP Serial #..."
+            class="search-input">
+          <button id="clear-search-btn" class="clear-search-btn" style="display: none;">
+            <i class="fa-solid fa-circle-xmark"></i>
           </button>
         </div>
 
         <!-- Dropdown Filters -->
         <div class="filter-group">
-          <!-- Direct Party Status Dropdown -->
           <select id="party-select-filter" class="filter-select" onchange="setPartyFilter(this.value)">
             <option value="ALL">All Statuses (593)</option>
             <option value="TDP">TDP Voters</option>
@@ -1801,12 +1862,12 @@
       emptyState.style.display = 'none';
 
       container.innerHTML = voters.map(v => {
-        let cardClass = 'vote-card';
-        if (v.party === 'TDP') cardClass += ' card-tdp';
-        else if (v.party === 'YCP' || v.party === 'YSRCP') cardClass += ' card-ycp';
-        else if (v.party === 'NEUTRAL') cardClass += ' card-neutral';
-        else if (v.party === 'DEAD') cardClass += ' card-dead';
-        else if (v.party === 'UNKNOWN') cardClass += ' card-unknown';
+        let cardModifier = '';
+        if (v.party === 'TDP') cardModifier = 'card-tdp';
+        else if (v.party === 'YCP' || v.party === 'YSRCP') cardModifier = 'card-ycp';
+        else if (v.party === 'NEUTRAL') cardModifier = 'card-neutral';
+        else if (v.party === 'DEAD') cardModifier = 'card-dead';
+        else if (v.party === 'UNKNOWN') cardModifier = 'card-unknown';
 
         const photoBoxHtml = profileMode === 'photo' ? `
           <div onclick="openSlipModal('${v.crop_path}', ${v.gp_serial || v.serial_no}, '${v.epic_id}', '${escapeHtml(v.name)}')" 
@@ -1834,7 +1895,7 @@
         const pollIcon = v.voted ? '<i class="fa-solid fa-circle-check" style="color: #059669;"></i>' : '<i class="fa-regular fa-circle"></i>';
 
         return `
-          <div class="${cardClass}">
+          <div id="voter-card-${v.id}" class="voter-card vote-card ${cardModifier}">
             
             <!-- Top meta row -->
             <div class="card-top">
@@ -1844,9 +1905,9 @@
                   ${v.epic_id}
                 </span>
               </div>
-              <button onclick="toggleVoterPolled(${v.id})" class="${pollClass}" title="${v.voted ? 'Marked as Voted' : 'Click if Voted'}">
-                ${pollIcon}
-                <span>${v.voted ? 'Voted' : 'Poll'}</span>
+              <button id="poll-btn-${v.id}" onclick="toggleVoterPolled(${v.id}, this)" class="${pollClass}" title="${v.voted ? 'Marked as Voted' : 'Click if Voted'}">
+                <span class="poll-icon-slot">${pollIcon}</span>
+                <span class="poll-text">${v.voted ? 'Voted' : 'Poll'}</span>
               </button>
             </div>
 
@@ -1875,9 +1936,9 @@
             </div>
 
             <!-- Bottom 5 1-Click Action Buttons -->
-            <div class="status-btn-group">
+            <div class="status-btn-group" id="party-group-${v.id}">
               <button 
-                onclick="setVoterParty(${v.id}, 'TDP')" 
+                onclick="setVoterParty(${v.id}, 'TDP', this)" 
                 class="btn-status ${v.party === 'TDP' ? 'active-tdp' : ''}"
                 title="Mark TDP"
               >
@@ -1885,15 +1946,15 @@
               </button>
 
               <button 
-                onclick="setVoterParty(${v.id}, 'YCP')" 
-                class="btn-status ${v.party === 'YCP' || v.party === 'YSRCP' ? 'active-ycp' : ''}"
+                onclick="setVoterParty(${v.id}, 'YCP', this)" 
+                class="btn-status ${(v.party === 'YCP' || v.party === 'YSRCP') ? 'active-ycp' : ''}"
                 title="Mark YCP"
               >
                 YCP
               </button>
 
               <button 
-                onclick="setVoterParty(${v.id}, 'NEUTRAL')" 
+                onclick="setVoterParty(${v.id}, 'NEUTRAL', this)" 
                 class="btn-status ${v.party === 'NEUTRAL' ? 'active-neutral' : ''}"
                 title="Mark Neutral"
               >
@@ -1901,17 +1962,17 @@
               </button>
 
               <button 
-                onclick="setVoterParty(${v.id}, 'DEAD')" 
+                onclick="setVoterParty(${v.id}, 'DEAD', this)" 
                 class="btn-status ${v.party === 'DEAD' ? 'active-dead' : ''}"
-                title="Mark Dead / Deceased"
+                title="Mark Dead"
               >
                 Dead
               </button>
 
               <button 
-                onclick="setVoterParty(${v.id}, 'UNKNOWN')" 
+                onclick="setVoterParty(${v.id}, 'UNKNOWN', this)" 
                 class="btn-status ${v.party === 'UNKNOWN' ? 'active-unknown' : ''}"
-                title="Mark Unknown / Untraced"
+                title="Mark Unknown"
               >
                 Unk
               </button>
@@ -1924,19 +1985,19 @@
 
     function escapeHtml(text) {
       if (!text) return '';
-      return String(text).replace(/'/g, "\\'").replace(/"/g, '&quot;');
+      return String(text).replace(/'/g, "\'").replace(/"/g, '&quot;');
     }
 
     // TRACK LAST MARKED VOTER FOR QUICK RETURN
     let lastMarkedVoterId = null;
     let lastMarkedGp = null;
 
-    // IN-PLACE CARD DOM UPDATE (ZERO SCROLL FLICKER / LAG)
+    // IN-PLACE INSTANT CARD UPDATE
     function updateCardDOM(id, v) {
       const card = document.getElementById(`voter-card-${id}`);
       if (!card) return;
 
-      // Update card outline modifier
+      // Update card modifier class
       card.className = 'voter-card vote-card';
       if (v.party === 'TDP') card.classList.add('card-tdp');
       else if (v.party === 'YCP' || v.party === 'YSRCP') card.classList.add('card-ycp');
@@ -1944,8 +2005,8 @@
       else if (v.party === 'DEAD') card.classList.add('card-dead');
       else if (v.party === 'UNKNOWN') card.classList.add('card-unknown');
 
-      // Update button highlights
-      const group = document.getElementById(`party-group-${id}`);
+      // Update party buttons
+      const group = document.getElementById(`party-group-${id}`) || card.querySelector('.status-btn-group');
       if (group) {
         const btns = group.querySelectorAll('.btn-status');
         const parties = ['TDP', 'YCP', 'NEUTRAL', 'DEAD', 'UNKNOWN'];
@@ -1963,7 +2024,7 @@
       }
 
       // Update poll button
-      const pollBtn = document.getElementById(`poll-btn-${id}`);
+      const pollBtn = document.getElementById(`poll-btn-${id}`) || card.querySelector('.poll-toggle');
       if (pollBtn) {
         pollBtn.className = v.voted ? 'poll-toggle voted' : 'poll-toggle';
         pollBtn.innerHTML = `
@@ -1975,25 +2036,32 @@
       }
     }
 
-    // SET VOTER PARTY WITH SPINNER & INSTANT FEEDBACK
+    // INSTANT OPTIMISTIC SET VOTER PARTY (0ms UI RESPONSE)
     async function setVoterParty(id, party, btnEl) {
       const v = currentVoters.find(item => item.id === id);
       if (!v) return;
 
+      const prevParty = v.party;
       const newParty = (v.party === party) ? 'UNASSIGNED' : party;
 
-      // Record last marked voter
+      // 1. INSTANT OPTIMISTIC LOCAL UPDATE (0ms)
+      v.party = newParty;
+      updateCardDOM(id, v);
+
+      // Track last marked voter
       lastMarkedVoterId = id;
       lastMarkedGp = v.gp_serial || v.serial_no;
       updateResumeButton();
 
-      // Show immediate spinner on clicked button
-      const origContent = btnEl ? btnEl.innerHTML : null;
+      // Recalculate stats locally immediately for instant feedback
+      updateLocalStats();
+
+      // Show tiny spinner indicator on the clicked button
       if (btnEl) {
         btnEl.classList.add('loading');
-        btnEl.innerHTML = '<i class="fa-solid fa-circle-notch fa-spin"></i>';
       }
 
+      // 2. BACKGROUND PERSISTENCE
       try {
         const res = await fetch(`/api/voters/${id}/party`, {
           method: 'POST',
@@ -2002,37 +2070,42 @@
         });
         const data = await res.json();
         if (data.success) {
-          v.party = newParty;
+          loadStats(); // Sync with exact server stats
+        } else {
+          // Revert if server failed
+          v.party = prevParty;
           updateCardDOM(id, v);
           loadStats();
-        } else {
-          if (btnEl && origContent) btnEl.innerHTML = origContent;
         }
       } catch (err) {
-        console.error('Error setting party:', err);
-        if (btnEl && origContent) btnEl.innerHTML = origContent;
+        console.error('Error saving party:', err);
+        v.party = prevParty;
+        updateCardDOM(id, v);
+        loadStats();
       } finally {
         if (btnEl) btnEl.classList.remove('loading');
       }
     }
 
-    // TOGGLE VOTED / POLLED STATUS WITH SPINNER
+    // INSTANT OPTIMISTIC POLL TOGGLE (0ms UI RESPONSE)
     async function toggleVoterPolled(id, btnEl) {
       const v = currentVoters.find(item => item.id === id);
       if (!v) return;
 
-      // Record last marked voter
+      const prevVoted = v.voted;
+      const newVoted = v.voted ? 0 : 1;
+
+      // 1. INSTANT OPTIMISTIC LOCAL UPDATE (0ms)
+      v.voted = newVoted;
+      updateCardDOM(id, v);
+
       lastMarkedVoterId = id;
       lastMarkedGp = v.gp_serial || v.serial_no;
       updateResumeButton();
 
-      const pollBtn = btnEl || document.getElementById(`poll-btn-${id}`);
-      const iconSlot = pollBtn ? pollBtn.querySelector('.poll-icon-slot') : null;
-      const origIcon = iconSlot ? iconSlot.innerHTML : '';
-      if (iconSlot) {
-        iconSlot.innerHTML = '<i class="fa-solid fa-circle-notch fa-spin"></i>';
-      }
+      updateLocalStats();
 
+      // 2. BACKGROUND PERSISTENCE
       try {
         const res = await fetch(`/api/voters/${id}/voted`, {
           method: 'POST',
@@ -2040,19 +2113,65 @@
         });
         const data = await res.json();
         if (data.success) {
-          v.voted = data.voter.voted;
-          updateCardDOM(id, v);
           loadStats();
         } else {
-          if (iconSlot) iconSlot.innerHTML = origIcon;
+          v.voted = prevVoted;
+          updateCardDOM(id, v);
+          loadStats();
         }
       } catch (err) {
-        console.error('Error toggling polled:', err);
-        if (iconSlot) iconSlot.innerHTML = origIcon;
+        console.error('Error toggling voted:', err);
+        v.voted = prevVoted;
+        updateCardDOM(id, v);
+        loadStats();
       }
     }
 
-    // RESUME / QUICK SCROLL BACK TO LAST MARKED VOTER
+    // RECALCULATE LOCAL STATS IMMEDIATELY FOR 0ms SCOREBOARD RESPONSE
+    function updateLocalStats() {
+      let tdp = 0, ycp = 0, neutral = 0, dead = 0, unknown = 0, unassigned = 0;
+      let votedTdp = 0, votedYcp = 0, totalVoted = 0;
+
+      currentVoters.forEach(v => {
+        if (v.party === 'TDP') { tdp++; if (v.voted) votedTdp++; }
+        else if (v.party === 'YCP' || v.party === 'YSRCP') { ycp++; if (v.voted) votedYcp++; }
+        else if (v.party === 'NEUTRAL') { neutral++; }
+        else if (v.party === 'DEAD') { dead++; }
+        else if (v.party === 'UNKNOWN') { unknown++; }
+        else { unassigned++; }
+        if (v.voted) totalVoted++;
+      });
+
+      const total = currentVoters.length;
+      const setTxt = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = val; };
+
+      setTxt('tdp-count', tdp);
+      setTxt('ycp-count', ycp);
+      setTxt('neutral-count', neutral);
+      setTxt('dead-count', dead);
+      setTxt('unknown-count', unknown);
+      setTxt('unassigned-count', unassigned);
+
+      setTxt('count-tab-all', total);
+      setTxt('count-tab-tdp', tdp);
+      setTxt('count-tab-ycp', ycp);
+      setTxt('count-tab-neutral', neutral);
+      setTxt('count-tab-dead', dead);
+      setTxt('count-tab-unknown', unknown);
+      setTxt('count-tab-unassigned', unassigned);
+
+      // Bottom bar
+      setTxt('m-tdp-count', tdp);
+      setTxt('m-ycp-count', ycp);
+      setTxt('m-neut-count', neutral);
+      setTxt('m-unm-count', unassigned);
+
+      const margin = tdp - ycp;
+      const leadTxt = margin > 0 ? `TDP +${margin}` : margin < 0 ? `YCP +${Math.abs(margin)}` : 'EVEN';
+      setTxt('m-lead-chip', leadTxt);
+    }
+
+    // RESUME BUTTON TRACKING & VISIBILITY
     function updateResumeButton() {
       const btn = document.getElementById('resume-voter-btn');
       const numSpan = document.getElementById('resume-gp-num');
@@ -2068,14 +2187,15 @@
 
       const card = document.getElementById(`voter-card-${lastMarkedVoterId}`);
       if (!card) {
-        btn.style.display = 'none';
+        btn.style.display = 'inline-flex';
         return;
       }
 
       const rect = card.getBoundingClientRect();
-      const inView = (rect.top >= 40 && rect.bottom <= (window.innerHeight - 40));
+      // If card top is below viewport or bottom is above top of viewport
+      const isOffscreen = (rect.bottom < 70 || rect.top > window.innerHeight - 70);
 
-      if (!inView) {
+      if (isOffscreen) {
         btn.style.display = 'inline-flex';
       } else {
         btn.style.display = 'none';
@@ -2095,8 +2215,8 @@
     }
 
     window.addEventListener('scroll', checkResumeButtonVisibility, { passive: true });
-
-    // SET PARTY FILTER (FROM TABS, DROPDOWN, OR SCOREBOARD CARDS)
+    document.addEventListener('scroll', checkResumeButtonVisibility, { passive: true });
+// SET PARTY FILTER (FROM TABS, DROPDOWN, OR SCOREBOARD CARDS)
     function setPartyFilter(party) {
       currentPartyFilter = party;
 
