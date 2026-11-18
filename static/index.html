@@ -274,6 +274,11 @@
     }
 
     /* TOOLBAR */
+
+    .mobile-filter-toggle-btn {
+      display: none;
+    }
+
     .toolbar-box {
       background: #FFFFFF;
       border: 1px solid #E2E8F0;
@@ -960,12 +965,38 @@
         left: 9px !important;
       }
 
-      /* 2-COLUMN BALANCED FILTER DROPDOWNS */
+      .mobile-filter-toggle-btn {
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 32px !important;
+        height: 32px !important;
+        border-radius: 6px !important;
+        background: #F1F5F9 !important;
+        border: 1px solid #CBD5E1 !important;
+        color: #475569 !important;
+        cursor: pointer !important;
+        flex-shrink: 0 !important;
+        touch-action: manipulation !important;
+      }
+
+      .mobile-filter-toggle-btn.active {
+        background: #2563EB !important;
+        border-color: #1D4ED8 !important;
+        color: #FFFFFF !important;
+      }
+
+      /* 2-COLUMN BALANCED FILTER DROPDOWNS (COLLAPSED BY DEFAULT ON MOBILE) */
       .filter-group {
+        display: none !important;
+      }
+
+      .filter-group.show-mobile {
         display: grid !important;
         grid-template-columns: 1fr 1fr !important;
         gap: 4px !important;
         width: 100% !important;
+        margin-top: 4px !important;
       }
 
       .filter-select {
@@ -1013,39 +1044,43 @@
         width: 100% !important;
       }
 
-      .voter-card {
-        padding: 7px 8px !important;
+      .voter-card,
+      .vote-card {
+        padding: 5px 8px !important;
         border-radius: 8px !important;
         width: 100% !important;
         box-sizing: border-box !important;
+        margin-bottom: 0 !important;
       }
 
       .card-top {
-        padding-bottom: 5px !important;
+        padding-bottom: 3px !important;
+        margin-bottom: 2px !important;
         width: 100% !important;
       }
 
       .gp-badge {
-        font-size: 10px !important;
-        padding: 2px 5px !important;
+        font-size: 9.5px !important;
+        padding: 1.5px 5px !important;
       }
 
       .epic-badge {
-        font-size: 10px !important;
-        padding: 2px 4px !important;
+        font-size: 9.5px !important;
+        padding: 1.5px 4px !important;
       }
 
       .poll-toggle {
-        padding: 3px 6px !important;
-        font-size: 10px !important;
-        min-height: 24px !important;
+        padding: 2px 6px !important;
+        font-size: 9.5px !important;
+        min-height: 22px !important;
       }
 
       .card-body {
         gap: 8px !important;
-        padding: 6px 0 !important;
+        padding: 3px 0 !important;
       }
 
+      /* Photo frame kept at perfect requested size */
       .photo-frame {
         width: 62px !important;
         height: 74px !important;
@@ -1054,45 +1089,50 @@
       }
 
       .voter-name {
-        font-size: 13.5px !important;
+        font-size: 13px !important;
         font-weight: 800 !important;
-        line-height: 1.25 !important;
+        line-height: 1.15 !important;
+        margin-bottom: 1px !important;
       }
 
       .voter-rel {
-        font-size: 11px !important;
-        margin-top: 2px !important;
+        font-size: 10px !important;
+        margin-top: 1px !important;
+        line-height: 1.15 !important;
       }
 
       .voter-tags {
-        font-size: 10.5px !important;
+        font-size: 9.5px !important;
         gap: 3px !important;
-        margin-top: 4px !important;
+        margin-top: 2px !important;
       }
 
       .tag-house {
         padding: 1px 3px !important;
       }
 
-      /* 5 FAST ACTION BUTTONS (NO OVERFLOW, BIG TOUCH TARGETS) */
+      /* 5 FAST ACTION BUTTONS - COMPACTED HEIGHT & BALANCED MOBILE SIZE */
       .status-btn-group {
         display: grid !important;
         grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
-        gap: 3px !important;
-        padding-top: 6px !important;
+        gap: 2.5px !important;
+        padding-top: 4px !important;
+        margin-top: 2px !important;
         width: 100% !important;
       }
 
       .btn-status {
-        min-height: 38px !important;
-        font-size: 11px !important;
+        min-height: 27px !important;
+        height: 27px !important;
+        font-size: 10px !important;
         font-weight: 800 !important;
-        padding: 0 !important;
-        border-radius: 5px !important;
+        padding: 0 1px !important;
+        border-radius: 4px !important;
         min-width: 0 !important;
         overflow: hidden !important;
         white-space: nowrap !important;
         text-overflow: ellipsis !important;
+        line-height: 1 !important;
       }
     }
 
@@ -1148,7 +1188,81 @@
         font-size: 10.5px;
       }
     }
-  </style>
+  
+    /* VOTERS LOADER SPINNER */
+    .voters-loader-box {
+      grid-column: 1 / -1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 20px;
+      color: #64748B;
+      gap: 12px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 13px;
+    }
+
+    .voters-spinner {
+      width: 36px;
+      height: 36px;
+      border: 3.5px solid #E2E8F0;
+      border-top-color: #2563EB;
+      border-radius: 50%;
+      animation: spin 0.75s linear infinite;
+    }
+
+    /* FLOATING RESUME / BACK TO LAST MARKED VOTER BUTTON */
+    .floating-resume-btn {
+      position: fixed;
+      bottom: 54px;
+      right: 14px;
+      background: #0F172A;
+      color: #FFFFFF;
+      border: 1.5px solid #3B82F6;
+      border-radius: 24px;
+      padding: 7px 14px;
+      font-size: 11px;
+      font-weight: 800;
+      display: none;
+      align-items: center;
+      gap: 6px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35), 0 0 10px rgba(59, 130, 246, 0.4);
+      z-index: 95;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      touch-action: manipulation;
+    }
+
+    .floating-resume-btn:hover {
+      background: #1E293B;
+      border-color: #60A5FA;
+      transform: translateY(-2px);
+    }
+
+    .floating-resume-btn:active {
+      transform: scale(0.95);
+    }
+
+    /* GLOW TARGET PULSE FOR CARD WHEN RETURNING */
+    @keyframes cardGlowPulse {
+      0% { box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.7); outline: 2.5px solid #2563EB; }
+      50% { box-shadow: 0 0 0 8px rgba(37, 99, 235, 0.25); outline: 2.5px solid #3B82F6; }
+      100% { box-shadow: none; outline: none; }
+    }
+
+    .target-pulse {
+      animation: cardGlowPulse 1.8s ease-out;
+    }
+
+    /* MINI SPINNER INSIDE BUTTONS */
+    .btn-status.loading {
+      pointer-events: none;
+      opacity: 0.85;
+    }
+
+</style>
 </head>
 
 <body>
@@ -1328,13 +1442,18 @@
     <div class="toolbar-box">
       <div class="toolbar-row">
 
-        <!-- Search -->
-        <div class="search-wrapper">
-          <i class="fa-solid fa-magnifying-glass search-icon"></i>
-          <input type="text" id="search-input" placeholder="Search Name, EPIC, House No, GP Serial #..."
-            class="search-input">
-          <button id="clear-search-btn" class="clear-search-btn" style="display: none;">
-            <i class="fa-solid fa-circle-xmark"></i>
+        <!-- Search & Filter Toggle on Mobile -->
+        <div style="display: flex; gap: 6px; width: 100%; align-items: center; flex: 1 1 240px;">
+          <div class="search-wrapper" style="flex: 1;">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input type="text" id="search-input" placeholder="Search Name, EPIC, House No, GP Serial #..."
+              class="search-input">
+            <button id="clear-search-btn" class="clear-search-btn" style="display: none;">
+              <i class="fa-solid fa-circle-xmark"></i>
+            </button>
+          </div>
+          <button id="mobile-filter-toggle" class="mobile-filter-toggle-btn" onclick="toggleMobileFilterDrawer()" title="Filter options">
+            <i class="fa-solid fa-sliders"></i>
           </button>
         </div>
 
@@ -1626,6 +1745,18 @@
 
     // LOAD VOTERS FROM SERVER
     async function loadVoters() {
+      const container = document.getElementById('voters-container');
+      const emptyState = document.getElementById('empty-state');
+
+      // Show sleek loading spinner while fetching
+      container.innerHTML = `
+        <div class="voters-loader-box">
+          <div class="voters-spinner"></div>
+          <div>Loading voter records...</div>
+        </div>
+      `;
+      if (emptyState) emptyState.style.display = 'none';
+
       const search = document.getElementById('search-input').value.trim();
       const section = document.getElementById('section-filter').value;
       const gender = document.getElementById('gender-filter').value;
@@ -1648,6 +1779,12 @@
         renderVotersList(currentVoters);
       } catch (err) {
         console.error('Error loading voters:', err);
+        container.innerHTML = `
+          <div class="voters-loader-box" style="color: #EF4444;">
+            <i class="fa-solid fa-triangle-exclamation" style="font-size: 24px; margin-bottom: 6px;"></i>
+            <div>Failed to load voter data. Please refresh.</div>
+          </div>
+        `;
       }
     }
 
@@ -1790,13 +1927,74 @@
       return String(text).replace(/'/g, "\\'").replace(/"/g, '&quot;');
     }
 
-    // SET VOTER PARTY
-    async function setVoterParty(id, party) {
-      try {
-        const v = currentVoters.find(item => item.id === id);
-        // Toggle off if already marked
-        const newParty = (v && v.party === party) ? 'UNASSIGNED' : party;
+    // TRACK LAST MARKED VOTER FOR QUICK RETURN
+    let lastMarkedVoterId = null;
+    let lastMarkedGp = null;
 
+    // IN-PLACE CARD DOM UPDATE (ZERO SCROLL FLICKER / LAG)
+    function updateCardDOM(id, v) {
+      const card = document.getElementById(`voter-card-${id}`);
+      if (!card) return;
+
+      // Update card outline modifier
+      card.className = 'voter-card vote-card';
+      if (v.party === 'TDP') card.classList.add('card-tdp');
+      else if (v.party === 'YCP' || v.party === 'YSRCP') card.classList.add('card-ycp');
+      else if (v.party === 'NEUTRAL') card.classList.add('card-neutral');
+      else if (v.party === 'DEAD') card.classList.add('card-dead');
+      else if (v.party === 'UNKNOWN') card.classList.add('card-unknown');
+
+      // Update button highlights
+      const group = document.getElementById(`party-group-${id}`);
+      if (group) {
+        const btns = group.querySelectorAll('.btn-status');
+        const parties = ['TDP', 'YCP', 'NEUTRAL', 'DEAD', 'UNKNOWN'];
+        const activeCls = ['active-tdp', 'active-ycp', 'active-neutral', 'active-dead', 'active-unknown'];
+        const labels = ['TDP', 'YCP', 'Neut', 'Dead', 'Unk'];
+
+        btns.forEach((btn, idx) => {
+          btn.className = 'btn-status';
+          btn.innerHTML = labels[idx];
+          btn.classList.remove('loading');
+          if (v.party === parties[idx] || (parties[idx] === 'YCP' && v.party === 'YSRCP')) {
+            btn.classList.add(activeCls[idx]);
+          }
+        });
+      }
+
+      // Update poll button
+      const pollBtn = document.getElementById(`poll-btn-${id}`);
+      if (pollBtn) {
+        pollBtn.className = v.voted ? 'poll-toggle voted' : 'poll-toggle';
+        pollBtn.innerHTML = `
+          <span class="poll-icon-slot">
+            ${v.voted ? '<i class="fa-solid fa-circle-check" style="color: #059669;"></i>' : '<i class="fa-regular fa-circle"></i>'}
+          </span>
+          <span class="poll-text">${v.voted ? 'Voted' : 'Poll'}</span>
+        `;
+      }
+    }
+
+    // SET VOTER PARTY WITH SPINNER & INSTANT FEEDBACK
+    async function setVoterParty(id, party, btnEl) {
+      const v = currentVoters.find(item => item.id === id);
+      if (!v) return;
+
+      const newParty = (v.party === party) ? 'UNASSIGNED' : party;
+
+      // Record last marked voter
+      lastMarkedVoterId = id;
+      lastMarkedGp = v.gp_serial || v.serial_no;
+      updateResumeButton();
+
+      // Show immediate spinner on clicked button
+      const origContent = btnEl ? btnEl.innerHTML : null;
+      if (btnEl) {
+        btnEl.classList.add('loading');
+        btnEl.innerHTML = '<i class="fa-solid fa-circle-notch fa-spin"></i>';
+      }
+
+      try {
         const res = await fetch(`/api/voters/${id}/party`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -1804,17 +2002,37 @@
         });
         const data = await res.json();
         if (data.success) {
-          if (v) v.party = newParty;
-          renderVotersList(currentVoters);
+          v.party = newParty;
+          updateCardDOM(id, v);
           loadStats();
+        } else {
+          if (btnEl && origContent) btnEl.innerHTML = origContent;
         }
       } catch (err) {
         console.error('Error setting party:', err);
+        if (btnEl && origContent) btnEl.innerHTML = origContent;
+      } finally {
+        if (btnEl) btnEl.classList.remove('loading');
       }
     }
 
-    // TOGGLE VOTED / POLLED STATUS
-    async function toggleVoterPolled(id) {
+    // TOGGLE VOTED / POLLED STATUS WITH SPINNER
+    async function toggleVoterPolled(id, btnEl) {
+      const v = currentVoters.find(item => item.id === id);
+      if (!v) return;
+
+      // Record last marked voter
+      lastMarkedVoterId = id;
+      lastMarkedGp = v.gp_serial || v.serial_no;
+      updateResumeButton();
+
+      const pollBtn = btnEl || document.getElementById(`poll-btn-${id}`);
+      const iconSlot = pollBtn ? pollBtn.querySelector('.poll-icon-slot') : null;
+      const origIcon = iconSlot ? iconSlot.innerHTML : '';
+      if (iconSlot) {
+        iconSlot.innerHTML = '<i class="fa-solid fa-circle-notch fa-spin"></i>';
+      }
+
       try {
         const res = await fetch(`/api/voters/${id}/voted`, {
           method: 'POST',
@@ -1822,15 +2040,61 @@
         });
         const data = await res.json();
         if (data.success) {
-          const v = currentVoters.find(item => item.id === id);
-          if (v) v.voted = data.voter.voted;
-          renderVotersList(currentVoters);
+          v.voted = data.voter.voted;
+          updateCardDOM(id, v);
           loadStats();
+        } else {
+          if (iconSlot) iconSlot.innerHTML = origIcon;
         }
       } catch (err) {
         console.error('Error toggling polled:', err);
+        if (iconSlot) iconSlot.innerHTML = origIcon;
       }
     }
+
+    // RESUME / QUICK SCROLL BACK TO LAST MARKED VOTER
+    function updateResumeButton() {
+      const btn = document.getElementById('resume-voter-btn');
+      const numSpan = document.getElementById('resume-gp-num');
+      if (!btn || !lastMarkedVoterId) return;
+
+      if (numSpan) numSpan.textContent = lastMarkedGp || lastMarkedVoterId;
+      checkResumeButtonVisibility();
+    }
+
+    function checkResumeButtonVisibility() {
+      const btn = document.getElementById('resume-voter-btn');
+      if (!btn || !lastMarkedVoterId) return;
+
+      const card = document.getElementById(`voter-card-${lastMarkedVoterId}`);
+      if (!card) {
+        btn.style.display = 'none';
+        return;
+      }
+
+      const rect = card.getBoundingClientRect();
+      const inView = (rect.top >= 40 && rect.bottom <= (window.innerHeight - 40));
+
+      if (!inView) {
+        btn.style.display = 'inline-flex';
+      } else {
+        btn.style.display = 'none';
+      }
+    }
+
+    function scrollToLastMarkedVoter() {
+      if (!lastMarkedVoterId) return;
+      const card = document.getElementById(`voter-card-${lastMarkedVoterId}`);
+      if (card) {
+        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        card.classList.add('target-pulse');
+        setTimeout(() => card.classList.remove('target-pulse'), 2000);
+        const btn = document.getElementById('resume-voter-btn');
+        if (btn) btn.style.display = 'none';
+      }
+    }
+
+    window.addEventListener('scroll', checkResumeButtonVisibility, { passive: true });
 
     // SET PARTY FILTER (FROM TABS, DROPDOWN, OR SCOREBOARD CARDS)
     function setPartyFilter(party) {
@@ -1918,6 +2182,16 @@
       }
     }
 
+    
+    function toggleMobileFilterDrawer() {
+      const grp = document.querySelector('.filter-group');
+      const btn = document.getElementById('mobile-filter-toggle');
+      if (grp) {
+        grp.classList.toggle('show-mobile');
+        if (btn) btn.classList.toggle('active', grp.classList.contains('show-mobile'));
+      }
+    }
+
     // SEARCH INPUT LISTENER WITH DEBOUNCE
     let searchDebounce;
     document.getElementById('search-input').addEventListener('input', (e) => {
@@ -1953,6 +2227,13 @@
       setInterval(loadStats, 4000);
     });
   </script>
+
+  <!-- FLOATING RESUME / BACK TO LAST MARKED VOTER BUTTON -->
+  <button id="resume-voter-btn" class="floating-resume-btn" onclick="scrollToLastMarkedVoter()" title="Go back to where you were marking">
+    <i class="fa-solid fa-arrow-turn-down" style="color: #60A5FA;"></i>
+    <span>Back to GP#<span id="resume-gp-num">--</span></span>
+  </button>
+
 </body>
 
 </html>
