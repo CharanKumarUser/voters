@@ -1664,8 +1664,9 @@
       emptyState.style.display = 'none';
 
       container.innerHTML = voters.map(v => {
-        let cardClass = 'vote-          y === 'TDP') cardClass += ' card - tdp';
-        else if (v.party === 'YCP' || v.party === 'YSRCP') cardClass += ' ard-ycp';
+        let cardClass = 'vote-card';
+        if (v.party === 'TDP') cardClass += ' card-tdp';
+        else if (v.party === 'YCP' || v.party === 'YSRCP') cardClass += ' card-ycp';
         else if (v.party === 'NEUTRAL') cardClass += ' card-neutral';
         else if (v.party === 'DEAD') cardClass += ' card-dead';
         else if (v.party === 'UNKNOWN') cardClass += ' card-unknown';
@@ -1918,7 +1919,8 @@
     }
 
     // SEARCH INPUT LISTENER WITH DEBOUNCE
-    let searchDebnceocument.getElementById('search-input').addEventListener('input', (e) => {
+    let searchDebounce;
+    document.getElementById('search-input').addEventListener('input', (e) => {
       const clearBtn = document.getElementById('clear-search-btn');
       if (e.target.value) {
         clearBtn.style.display = 'block';
