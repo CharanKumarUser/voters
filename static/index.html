@@ -2043,6 +2043,7 @@
 
       const prevParty = v.party;
       const newParty = (v.party === party) ? 'UNASSIGNED' : party;
+      pendingWrites[id] = (pendingWrites[id] || 0) + 1;
 
       // 1. INSTANT OPTIMISTIC LOCAL UPDATE (0ms)
       v.party = newParty;
@@ -2084,6 +2085,7 @@
         loadStats();
       } finally {
         if (btnEl) btnEl.classList.remove('loading');
+        pendingWrites[id] = Math.max(0, (pendingWrites[id] || 1) - 1);
       }
     }
 
@@ -2094,6 +2096,7 @@
 
       const prevVoted = v.voted;
       const newVoted = v.voted ? 0 : 1;
+      pendingWrites[id] = (pendingWrites[id] || 0) + 1;
 
       // 1. INSTANT OPTIMISTIC LOCAL UPDATE (0ms)
       v.voted = newVoted;
@@ -2109,7 +2112,8 @@
       try {
         const res = await fetch(`/api/voters/${id}/voted`, {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' }
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ voted: newVoted })
         });
         const data = await res.json();
         if (data.success) {
@@ -2124,11 +2128,15 @@
         v.voted = prevVoted;
         updateCardDOM(id, v);
         loadStats();
+      } finally {
+        pendingWrites[id] = Math.max(0, (pendingWrites[id] || 1) - 1);
       }
     }
 
     // RECALCULATE LOCAL STATS IMMEDIATELY FOR 0ms SCOREBOARD RESPONSE
     function updateLocalStats() {
+      const totalEl = document.getElementById('header-total');
+      if (totalEl && currentVoters.length !== parseInt(totalEl.textContent, 10)) return; // filtered list -> wait for server stats
       let tdp = 0, ycp = 0, neutral = 0, dead = 0, unknown = 0, unassigned = 0;
       let votedTdp = 0, votedYcp = 0, totalVoted = 0;
 
@@ -2340,11 +2348,60 @@
       if (e.key === 'Escape') closeSlipModal();
     });
 
+    // LIVE SYNC: pull every voter's mark from the shared database so changes
+    // made by any friend on any phone show up here within a few seconds.
+    const pendingWrites = {};
+    let syncBusy = false;
+    async function syncFromServer() {
+      if (syncBusy || document.hidden) return;
+      syncBusy = true;
+      try {
+        const res = await fetch('/api/sync', { cache: 'no-store' });
+        const data = await res.json();
+        const byId = new Map(currentVoters.map(v => [v.id, v]));
+        let changed = false;
+        for (const [id, party, voted] of data.state) {
+          if (pendingWrites[id]) continue; // don't overwrite a mark that is still saving
+          const v = byId.get(id);
+          if (v && (v.party !== party || (v.voted ? 1 : 0) !== voted)) {
+            v.party = party;
+            v.voted = voted;
+            updateCardDOM(id, v);
+            changed = true;
+          }
+        }
+        if (changed) loadStats();
+      } catch (e) {
+        console.warn('Live sync failed:', e);
+      } finally {
+        syncBusy = false;
+      }
+    }
+
+    // WARN IF THE SERVER IS USING TEMPORARY (NON-PERSISTENT) STORAGE
+    async function checkStorageHealth() {
+      try {
+        const h = await (await fetch('/api/health', { cache: 'no-store' })).json();
+        if (h.persistent === false && !document.getElementById('storage-warning')) {
+          const bar = document.createElement('div');
+          bar.id = 'storage-warning';
+          bar.style.cssText = 'background:#DC2626;color:#fff;font-size:12px;font-weight:700;padding:6px 10px;text-align:center;';
+          bar.textContent = '⚠ Database not connected: marks will be LOST when the server restarts. Set DATABASE_URL on Render.';
+          document.body.prepend(bar);
+        }
+      } catch (e) { /* ignore */ }
+    }
+
     window.addEventListener('DOMContentLoaded', () => {
       loadSections();
       loadStats();
       loadVoters();
-      setInterval(loadStats, 4000);
+      setInterval(loadStats, 5000);
+      setInterval(syncFromServer, 5000);
+      checkStorageHealth();
+      document.addEventListener('visibilitychange', () => {
+        if (!document.hidden) { loadStats(); syncFromServer(); }
+      });
     });
   </script>
 

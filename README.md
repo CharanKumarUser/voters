@@ -40,3 +40,10 @@ A high-performance web console for Gram Panchayat voter tallying, candidate stat
 >   - Directly runs Flask with `gunicorn app:app` via the included `Procfile`.
 >   - Keeps `voters.db` persistent so vote tallies, polled status, and markings are saved.
 >   - Automatically connects to this GitHub repository and deploys on push.
+
+## Persistent database (required on Render)
+Render's free disk is temporary: `voters.db` is reset every time the service sleeps, restarts or redeploys.
+Set the `DATABASE_URL` environment variable to a PostgreSQL connection string (e.g. a free Neon database).
+On first start the app creates the table and loads the 593 voters automatically; after that, data is never overwritten.
+Check `/api/health` - it should say `postgresql (persistent)`.
+
