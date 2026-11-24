@@ -1704,101 +1704,108 @@
       renderVotersList(currentVoters);
     }
 
+    let lastStats = null;
+
+    function applyStats(data) {
+      if (!data) return;
+      lastStats = { ...data };
+
+      // Update counts & percentages
+      document.getElementById('header-total').textContent = data.total;
+
+      document.getElementById('tdp-count').textContent = data.tdp;
+      document.getElementById('tdp-pct').textContent = `${data.tdp_pct}%`;
+      document.getElementById('tdp-progress-bar').style.width = `${data.tdp_pct}%`;
+      document.getElementById('voted-tdp').textContent = data.voted_tdp;
+
+      document.getElementById('ycp-count').textContent = data.ycp;
+      document.getElementById('ycp-pct').textContent = `${data.ycp_pct}%`;
+      document.getElementById('ycp-progress-bar').style.width = `${data.ycp_pct}%`;
+      document.getElementById('voted-ycp').textContent = data.voted_ycp;
+
+      document.getElementById('neutral-count').textContent = data.neutral;
+      document.getElementById('neutral-pct').textContent = `${data.neutral_pct}%`;
+      document.getElementById('neutral-progress-bar').style.width = `${data.neutral_pct}%`;
+      document.getElementById('voted-neutral').textContent = data.voted_neutral;
+
+      document.getElementById('dead-count').textContent = data.dead;
+      document.getElementById('dead-pct').textContent = `${data.dead_pct}%`;
+      document.getElementById('dead-progress-bar').style.width = `${data.dead_pct}%`;
+
+      document.getElementById('unknown-count').textContent = data.unknown;
+      document.getElementById('unknown-pct').textContent = `${data.unknown_pct}%`;
+      document.getElementById('unknown-progress-bar').style.width = `${data.unknown_pct}%`;
+
+      document.getElementById('unassigned-count').textContent = data.unassigned;
+      document.getElementById('unassigned-pct').textContent = `${data.unassigned_pct}%`;
+      document.getElementById('unassigned-progress-bar').style.width = `${data.unassigned_pct}%`;
+
+      // Update quick filter pill counts
+      document.getElementById('count-tab-all').textContent = data.total;
+      document.getElementById('count-tab-tdp').textContent = data.tdp;
+      document.getElementById('count-tab-ycp').textContent = data.ycp;
+      document.getElementById('count-tab-neutral').textContent = data.neutral;
+      document.getElementById('count-tab-dead').textContent = data.dead;
+      document.getElementById('count-tab-unknown').textContent = data.unknown;
+      document.getElementById('count-tab-unassigned').textContent = data.unassigned;
+
+      // Margin & Lead calculation
+      const leadBadge = document.getElementById('lead-badge');
+      const leadText = document.getElementById('lead-text');
+
+      if (data.lead_party === 'TDP') {
+        leadBadge.style.background = '#F59E0B';
+        leadBadge.style.color = '#0F172A';
+        leadBadge.textContent = `TDP +${data.lead_margin}`;
+        leadText.innerHTML = `<span style="color: #F59E0B;">🟡 TDP Lead</span> by ${data.lead_margin}`;
+      } else if (data.lead_party === 'YCP') {
+        leadBadge.style.background = '#2563EB';
+        leadBadge.style.color = '#FFFFFF';
+        leadBadge.textContent = `YCP +${data.lead_margin}`;
+        leadText.innerHTML = `<span style="color: #60A5FA;">🔵 YCP Lead</span> by ${data.lead_margin}`;
+      } else {
+        leadBadge.style.background = '#1E293B';
+        leadBadge.style.color = '#94A3B8';
+        leadBadge.textContent = 'EVEN';
+        leadText.textContent = data.marked > 0 ? 'Tied Score' : 'Undecided';
+      }
+
+      const turnoutPct = data.total > 0 ? Math.round((data.voted_total / data.total) * 100) : 0;
+      document.getElementById('turnout-text').textContent = `${data.voted_total} (${turnoutPct}%)`;
+
+      // Update mobile bottom floating ticker
+      const mTdp = document.getElementById('m-tdp');
+      if (mTdp) mTdp.textContent = data.tdp;
+      const mYcp = document.getElementById('m-ycp');
+      if (mYcp) mYcp.textContent = data.ycp;
+      const mNeut = document.getElementById('m-neutral');
+      if (mNeut) mNeut.textContent = data.neutral;
+      const mUnassigned = document.getElementById('m-unassigned');
+      if (mUnassigned) mUnassigned.textContent = data.unassigned;
+      const mLeadChip = document.getElementById('m-lead-chip');
+      if (mLeadChip) {
+        if (data.lead_party === 'TDP') {
+          mLeadChip.style.background = '#F59E0B';
+          mLeadChip.style.color = '#0F172A';
+          mLeadChip.textContent = `TDP +${data.lead_margin}`;
+        } else if (data.lead_party === 'YCP') {
+          mLeadChip.style.background = '#2563EB';
+          mLeadChip.style.color = '#FFFFFF';
+          mLeadChip.textContent = `YCP +${data.lead_margin}`;
+        } else {
+          mLeadChip.style.background = '#1E293B';
+          mLeadChip.style.color = '#94A3B8';
+          mLeadChip.textContent = 'EVEN';
+        }
+      }
+    }
+
     // LOAD STATS FROM SERVER
     async function loadStats() {
       try {
-        const res = await fetch('/api/stats');
+        const res = await fetch('/api/stats', { cache: 'no-store' });
         const data = await res.json();
-
-        // Update counts & percentages
-        document.getElementById('header-total').textContent = data.total;
-
-        document.getElementById('tdp-count').textContent = data.tdp;
-        document.getElementById('tdp-pct').textContent = `${data.tdp_pct}%`;
-        document.getElementById('tdp-progress-bar').style.width = `${data.tdp_pct}%`;
-        document.getElementById('voted-tdp').textContent = data.voted_tdp;
-
-        document.getElementById('ycp-count').textContent = data.ycp;
-        document.getElementById('ycp-pct').textContent = `${data.ycp_pct}%`;
-        document.getElementById('ycp-progress-bar').style.width = `${data.ycp_pct}%`;
-        document.getElementById('voted-ycp').textContent = data.voted_ycp;
-
-        document.getElementById('neutral-count').textContent = data.neutral;
-        document.getElementById('neutral-pct').textContent = `${data.neutral_pct}%`;
-        document.getElementById('neutral-progress-bar').style.width = `${data.neutral_pct}%`;
-        document.getElementById('voted-neutral').textContent = data.voted_neutral;
-
-        document.getElementById('dead-count').textContent = data.dead;
-        document.getElementById('dead-pct').textContent = `${data.dead_pct}%`;
-        document.getElementById('dead-progress-bar').style.width = `${data.dead_pct}%`;
-
-        document.getElementById('unknown-count').textContent = data.unknown;
-        document.getElementById('unknown-pct').textContent = `${data.unknown_pct}%`;
-        document.getElementById('unknown-progress-bar').style.width = `${data.unknown_pct}%`;
-
-        document.getElementById('unassigned-count').textContent = data.unassigned;
-        document.getElementById('unassigned-pct').textContent = `${data.unassigned_pct}%`;
-        document.getElementById('unassigned-progress-bar').style.width = `${data.unassigned_pct}%`;
-
-        // Update quick filter pill counts
-        document.getElementById('count-tab-all').textContent = data.total;
-        document.getElementById('count-tab-tdp').textContent = data.tdp;
-        document.getElementById('count-tab-ycp').textContent = data.ycp;
-        document.getElementById('count-tab-neutral').textContent = data.neutral;
-        document.getElementById('count-tab-dead').textContent = data.dead;
-        document.getElementById('count-tab-unknown').textContent = data.unknown;
-        document.getElementById('count-tab-unassigned').textContent = data.unassigned;
-
-        // Margin & Lead calculation
-        const leadBadge = document.getElementById('lead-badge');
-        const leadText = document.getElementById('lead-text');
-
-        if (data.lead_party === 'TDP') {
-          leadBadge.style.background = '#F59E0B';
-          leadBadge.style.color = '#0F172A';
-          leadBadge.textContent = `TDP +${data.lead_margin}`;
-          leadText.innerHTML = `<span style="color: #F59E0B;">🟡 TDP Lead</span> by ${data.lead_margin}`;
-        } else if (data.lead_party === 'YCP') {
-          leadBadge.style.background = '#2563EB';
-          leadBadge.style.color = '#FFFFFF';
-          leadBadge.textContent = `YCP +${data.lead_margin}`;
-          leadText.innerHTML = `<span style="color: #60A5FA;">🔵 YCP Lead</span> by ${data.lead_margin}`;
-        } else {
-          leadBadge.style.background = '#1E293B';
-          leadBadge.style.color = '#94A3B8';
-          leadBadge.textContent = 'EVEN';
-          leadText.textContent = data.marked > 0 ? 'Tied Score' : 'Undecided';
-        }
-
-        const turnoutPct = data.total > 0 ? Math.round((data.voted_total / data.total) * 100) : 0;
-        document.getElementById('turnout-text').textContent = `${data.voted_total} (${turnoutPct}%)`;
-
-        // Update mobile bottom floating ticker
-        const mTdp = document.getElementById('m-tdp');
-        if (mTdp) mTdp.textContent = data.tdp;
-        const mYcp = document.getElementById('m-ycp');
-        if (mYcp) mYcp.textContent = data.ycp;
-        const mNeut = document.getElementById('m-neutral');
-        if (mNeut) mNeut.textContent = data.neutral;
-        const mUnassigned = document.getElementById('m-unassigned');
-        if (mUnassigned) mUnassigned.textContent = data.unassigned;
-        const mLeadChip = document.getElementById('m-lead-chip');
-        if (mLeadChip) {
-          if (data.lead_party === 'TDP') {
-            mLeadChip.style.background = '#F59E0B';
-            mLeadChip.style.color = '#0F172A';
-            mLeadChip.textContent = `TDP +${data.lead_margin}`;
-          } else if (data.lead_party === 'YCP') {
-            mLeadChip.style.background = '#2563EB';
-            mLeadChip.style.color = '#FFFFFF';
-            mLeadChip.textContent = `YCP +${data.lead_margin}`;
-          } else {
-            mLeadChip.style.background = '#1E293B';
-            mLeadChip.style.color = '#94A3B8';
-            mLeadChip.textContent = 'EVEN';
-          }
-        }
-
+        applyStats(data);
       } catch (err) {
         console.error('Error loading stats:', err);
       }
@@ -2036,6 +2043,58 @@
       }
     }
 
+    function partyBucket(p) {
+      if (p === 'TDP') return 'tdp';
+      if (p === 'YCP' || p === 'YSRCP') return 'ycp';
+      if (p === 'NEUTRAL') return 'neutral';
+      if (p === 'DEAD') return 'dead';
+      if (p === 'UNKNOWN') return 'unknown';
+      return 'unassigned';
+    }
+
+    // INSTANT 0ms OPTIMISTIC STATS UPDATE (WORKS EVEN WHEN FILTERED)
+    function applyOptimisticDelta(prevParty, newParty, prevVoted, newVoted) {
+      if (!lastStats) return;
+      const s = { ...lastStats };
+      const oldB = partyBucket(prevParty);
+      const newB = partyBucket(newParty);
+      const oldV = prevVoted ? 1 : 0;
+      const newV = newVoted ? 1 : 0;
+
+      if (oldB !== newB) {
+        s[oldB] = Math.max(0, (s[oldB] || 0) - 1);
+        s[newB] = (s[newB] || 0) + 1;
+        if (oldV) {
+          const oldVK = 'voted_' + oldB;
+          const newVK = 'voted_' + newB;
+          if (oldVK in s) s[oldVK] = Math.max(0, s[oldVK] - 1);
+          if (newVK in s) s[newVK] = s[newVK] + 1;
+        }
+      }
+      if (oldV !== newV) {
+        const diff = newV - oldV;
+        s.voted_total = Math.max(0, (s.voted_total || 0) + diff);
+        const vk = 'voted_' + newB;
+        if (vk in s) s[vk] = Math.max(0, s[vk] + diff);
+      }
+
+      const total = s.total || 0;
+      const pct = (n) => total > 0 ? Math.round((n / total) * 1000) / 10 : 0;
+      s.tdp_pct = pct(s.tdp);
+      s.ycp_pct = pct(s.ycp);
+      s.neutral_pct = pct(s.neutral);
+      s.dead_pct = pct(s.dead);
+      s.unknown_pct = pct(s.unknown);
+      s.unassigned_pct = pct(s.unassigned);
+      s.marked = s.tdp + s.ycp + s.neutral + s.dead + s.unknown;
+
+      if (s.tdp > s.ycp) { s.lead_party = 'TDP'; s.lead_margin = s.tdp - s.ycp; }
+      else if (s.ycp > s.tdp) { s.lead_party = 'YCP'; s.lead_margin = s.ycp - s.tdp; }
+      else { s.lead_party = 'TIE'; s.lead_margin = 0; }
+
+      applyStats(s);
+    }
+
     // INSTANT OPTIMISTIC SET VOTER PARTY (0ms UI RESPONSE)
     async function setVoterParty(id, party, btnEl) {
       const v = currentVoters.find(item => item.id === id);
@@ -2048,21 +2107,16 @@
       // 1. INSTANT OPTIMISTIC LOCAL UPDATE (0ms)
       v.party = newParty;
       updateCardDOM(id, v);
+      applyOptimisticDelta(prevParty, newParty, v.voted, v.voted);
 
       // Track last marked voter
       lastMarkedVoterId = id;
       lastMarkedGp = v.gp_serial || v.serial_no;
       updateResumeButton();
 
-      // Recalculate stats locally immediately for instant feedback
-      updateLocalStats();
+      if (btnEl) btnEl.classList.add('loading');
 
-      // Show tiny spinner indicator on the clicked button
-      if (btnEl) {
-        btnEl.classList.add('loading');
-      }
-
-      // 2. BACKGROUND PERSISTENCE
+      // 2. BACKGROUND PERSISTENCE TO RENDER DISK
       try {
         const res = await fetch(`/api/voters/${id}/party`, {
           method: 'POST',
@@ -2070,10 +2124,9 @@
           body: JSON.stringify({ party: newParty })
         });
         const data = await res.json();
-        if (data.success) {
-          loadStats(); // Sync with exact server stats
-        } else {
-          // Revert if server failed
+        if (data.success && data.stats) {
+          applyStats(data.stats);
+        } else if (!data.success) {
           v.party = prevParty;
           updateCardDOM(id, v);
           loadStats();
@@ -2101,14 +2154,13 @@
       // 1. INSTANT OPTIMISTIC LOCAL UPDATE (0ms)
       v.voted = newVoted;
       updateCardDOM(id, v);
+      applyOptimisticDelta(v.party, v.party, prevVoted, newVoted);
 
       lastMarkedVoterId = id;
       lastMarkedGp = v.gp_serial || v.serial_no;
       updateResumeButton();
 
-      updateLocalStats();
-
-      // 2. BACKGROUND PERSISTENCE
+      // 2. BACKGROUND PERSISTENCE TO RENDER DISK
       try {
         const res = await fetch(`/api/voters/${id}/voted`, {
           method: 'POST',
@@ -2116,9 +2168,9 @@
           body: JSON.stringify({ voted: newVoted })
         });
         const data = await res.json();
-        if (data.success) {
-          loadStats();
-        } else {
+        if (data.success && data.stats) {
+          applyStats(data.stats);
+        } else if (!data.success) {
           v.voted = prevVoted;
           updateCardDOM(id, v);
           loadStats();
@@ -2131,52 +2183,6 @@
       } finally {
         pendingWrites[id] = Math.max(0, (pendingWrites[id] || 1) - 1);
       }
-    }
-
-    // RECALCULATE LOCAL STATS IMMEDIATELY FOR 0ms SCOREBOARD RESPONSE
-    function updateLocalStats() {
-      const totalEl = document.getElementById('header-total');
-      if (totalEl && currentVoters.length !== parseInt(totalEl.textContent, 10)) return; // filtered list -> wait for server stats
-      let tdp = 0, ycp = 0, neutral = 0, dead = 0, unknown = 0, unassigned = 0;
-      let votedTdp = 0, votedYcp = 0, totalVoted = 0;
-
-      currentVoters.forEach(v => {
-        if (v.party === 'TDP') { tdp++; if (v.voted) votedTdp++; }
-        else if (v.party === 'YCP' || v.party === 'YSRCP') { ycp++; if (v.voted) votedYcp++; }
-        else if (v.party === 'NEUTRAL') { neutral++; }
-        else if (v.party === 'DEAD') { dead++; }
-        else if (v.party === 'UNKNOWN') { unknown++; }
-        else { unassigned++; }
-        if (v.voted) totalVoted++;
-      });
-
-      const total = currentVoters.length;
-      const setTxt = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = val; };
-
-      setTxt('tdp-count', tdp);
-      setTxt('ycp-count', ycp);
-      setTxt('neutral-count', neutral);
-      setTxt('dead-count', dead);
-      setTxt('unknown-count', unknown);
-      setTxt('unassigned-count', unassigned);
-
-      setTxt('count-tab-all', total);
-      setTxt('count-tab-tdp', tdp);
-      setTxt('count-tab-ycp', ycp);
-      setTxt('count-tab-neutral', neutral);
-      setTxt('count-tab-dead', dead);
-      setTxt('count-tab-unknown', unknown);
-      setTxt('count-tab-unassigned', unassigned);
-
-      // Bottom bar
-      setTxt('m-tdp-count', tdp);
-      setTxt('m-ycp-count', ycp);
-      setTxt('m-neut-count', neutral);
-      setTxt('m-unm-count', unassigned);
-
-      const margin = tdp - ycp;
-      const leadTxt = margin > 0 ? `TDP +${margin}` : margin < 0 ? `YCP +${Math.abs(margin)}` : 'EVEN';
-      setTxt('m-lead-chip', leadTxt);
     }
 
     // RESUME BUTTON TRACKING & VISIBILITY
@@ -2348,8 +2354,7 @@
       if (e.key === 'Escape') closeSlipModal();
     });
 
-    // LIVE SYNC: pull every voter's mark from the shared database so changes
-    // made by any friend on any phone show up here within a few seconds.
+    // LIVE SYNC: pull every voter's mark and stats in one fast call
     const pendingWrites = {};
     let syncBusy = false;
     async function syncFromServer() {
@@ -2359,18 +2364,17 @@
         const res = await fetch('/api/sync', { cache: 'no-store' });
         const data = await res.json();
         const byId = new Map(currentVoters.map(v => [v.id, v]));
-        let changed = false;
+        const hasPending = Object.values(pendingWrites).some(n => n > 0);
         for (const [id, party, voted] of data.state) {
-          if (pendingWrites[id]) continue; // don't overwrite a mark that is still saving
+          if (pendingWrites[id]) continue;
           const v = byId.get(id);
           if (v && (v.party !== party || (v.voted ? 1 : 0) !== voted)) {
             v.party = party;
             v.voted = voted;
             updateCardDOM(id, v);
-            changed = true;
           }
         }
-        if (changed) loadStats();
+        if (data.stats && !hasPending) applyStats(data.stats);
       } catch (e) {
         console.warn('Live sync failed:', e);
       } finally {
@@ -2378,29 +2382,13 @@
       }
     }
 
-    // WARN IF THE SERVER IS USING TEMPORARY (NON-PERSISTENT) STORAGE
-    async function checkStorageHealth() {
-      try {
-        const h = await (await fetch('/api/health', { cache: 'no-store' })).json();
-        if (h.persistent === false && !document.getElementById('storage-warning')) {
-          const bar = document.createElement('div');
-          bar.id = 'storage-warning';
-          bar.style.cssText = 'background:#DC2626;color:#fff;font-size:12px;font-weight:700;padding:6px 10px;text-align:center;';
-          bar.textContent = '⚠ Database not connected: marks will be LOST when the server restarts. Set DATABASE_URL on Render.';
-          document.body.prepend(bar);
-        }
-      } catch (e) { /* ignore */ }
-    }
-
     window.addEventListener('DOMContentLoaded', () => {
       loadSections();
       loadStats();
       loadVoters();
-      setInterval(loadStats, 5000);
-      setInterval(syncFromServer, 5000);
-      checkStorageHealth();
+      setInterval(syncFromServer, 3000);
       document.addEventListener('visibilitychange', () => {
-        if (!document.hidden) { loadStats(); syncFromServer(); }
+        if (!document.hidden) syncFromServer();
       });
     });
   </script>

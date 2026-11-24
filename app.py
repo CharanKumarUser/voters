@@ -1,148 +1,50 @@
 import os
+import shutil
 import sqlite3
 import csv
 import io
-import datetime
 from flask import Flask, jsonify, request, send_from_directory, Response
 
 app = Flask(__name__, static_folder='static')
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-SQLITE_PATH = os.path.join(BASE_DIR, 'voters.db')   # local DB / seed data source
-
-# ---------------------------------------------------------------------------
-# STORAGE BACKEND
-# Render (free plan) has an EPHEMERAL disk: any change written to voters.db is
-# wiped whenever the service sleeps, restarts or redeploys. To keep marks
-# permanently we use an external PostgreSQL database when DATABASE_URL is set.
-# Locally (no DATABASE_URL) we keep using the SQLite file.
-# ---------------------------------------------------------------------------
-DATABASE_URL = os.environ.get('DATABASE_URL', '').strip()
-if DATABASE_URL.startswith('postgres://'):
-    DATABASE_URL = 'postgresql://' + DATABASE_URL[len('postgres://'):]
-USE_PG = DATABASE_URL.startswith('postgresql://')
-
-if USE_PG:
-    import psycopg2
-    import psycopg2.extras
-
-COLUMNS = ['id', 'serial_no', 'epic_id', 'name', 'relation_type', 'relation_name', 'house_no',
-           'age', 'gender', 'section_no', 'section_name', 'ac_name', 'part_no', 'page_no',
-           'crop_path', 'party', 'voted', 'notes', 'ocr_done', 'updated_at', 'photo_path', 'gp_serial']
-
-PG_SCHEMA = '''
-CREATE TABLE IF NOT EXISTS voters (
-    id INTEGER PRIMARY KEY,
-    serial_no INTEGER UNIQUE,
-    epic_id TEXT DEFAULT '',
-    name TEXT DEFAULT '',
-    relation_type TEXT DEFAULT 'Father',
-    relation_name TEXT DEFAULT '',
-    house_no TEXT DEFAULT '',
-    age INTEGER DEFAULT 0,
-    gender TEXT DEFAULT 'Male',
-    section_no TEXT DEFAULT '',
-    section_name TEXT DEFAULT '',
-    ac_name TEXT DEFAULT '175-KUPPAM',
-    part_no TEXT DEFAULT '159',
-    page_no INTEGER,
-    crop_path TEXT,
-    party TEXT DEFAULT 'UNASSIGNED',
-    voted INTEGER DEFAULT 0,
-    notes TEXT DEFAULT '',
-    ocr_done INTEGER DEFAULT 0,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    photo_path TEXT,
-    gp_serial INTEGER
-);
-CREATE INDEX IF NOT EXISTS idx_voters_party ON voters(party);
-CREATE INDEX IF NOT EXISTS idx_voters_gp ON voters(gp_serial);
-'''
+SEED_DB_PATH = os.path.join(BASE_DIR, 'voters.db')
 
 
-def get_conn():
-    if USE_PG:
-        return psycopg2.connect(DATABASE_URL, connect_timeout=15)
-    conn = sqlite3.connect(SQLITE_PATH, check_same_thread=False, timeout=30.0)
+def resolve_db_path():
+    """Use a mounted Render Disk automatically if present (/var/data or /data),
+    otherwise use the local voters.db on Render's disk / local workspace.
+    No environment variables required."""
+    for mount in ('/var/data', '/data'):
+        if os.path.isdir(mount) and os.access(mount, os.W_OK):
+            target = os.path.join(mount, 'voters.db')
+            if not os.path.exists(target) and os.path.exists(SEED_DB_PATH):
+                shutil.copy2(SEED_DB_PATH, target)
+            return target, True
+    return SEED_DB_PATH, False
+
+
+DB_PATH, USING_MOUNTED_DISK = resolve_db_path()
+
+
+def get_db():
+    conn = sqlite3.connect(DB_PATH, check_same_thread=False, timeout=30.0)
     conn.row_factory = sqlite3.Row
+    conn.execute('PRAGMA busy_timeout = 30000')
     return conn
 
 
-def _sql(query):
-    """Convert SQLite-style SQL to the active backend's dialect."""
-    if USE_PG:
-        return query.replace('?', '%s').replace(' LIKE ', ' ILIKE ')
-    return query
-
-
-def _clean(row):
-    d = dict(row)
-    for k, v in d.items():
-        if isinstance(v, (datetime.datetime, datetime.date)):
-            d[k] = v.strftime('%Y-%m-%d %H:%M:%S')
-    return d
-
-
-def query_all(query, params=()):
-    conn = get_conn()
-    try:
-        if USE_PG:
-            cur = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
-        else:
-            cur = conn.cursor()
-        cur.execute(_sql(query), params)
-        return [_clean(r) for r in cur.fetchall()]
-    finally:
-        conn.close()
-
-
-def query_one(query, params=()):
-    rows = query_all(query, params)
-    return rows[0] if rows else None
-
-
-def execute(query, params=()):
-    conn = get_conn()
-    try:
-        cur = conn.cursor()
-        cur.execute(_sql(query), params)
-        conn.commit()
-        return cur.rowcount
-    finally:
-        conn.close()
-
-
 def init_db():
-    """Create the Postgres table and seed it ONCE from the bundled voters.db.
-    Existing data is never overwritten, so marks survive restarts/redeploys."""
-    if not USE_PG:
-        return
-    conn = get_conn()
+    """Enable WAL mode and indexes for instant concurrent reads/writes on disk."""
+    conn = get_db()
     try:
-        cur = conn.cursor()
-        cur.execute(PG_SCHEMA)
+        conn.execute('PRAGMA journal_mode = WAL')
+        conn.execute('PRAGMA synchronous = NORMAL')
+        conn.execute('PRAGMA temp_store = MEMORY')
+        conn.execute('CREATE INDEX IF NOT EXISTS idx_voters_party ON voters(party)')
+        conn.execute('CREATE INDEX IF NOT EXISTS idx_voters_gp ON voters(gp_serial)')
+        conn.execute('CREATE INDEX IF NOT EXISTS idx_voters_voted ON voters(voted)')
         conn.commit()
-        cur.execute('SELECT COUNT(*) FROM voters')
-        if cur.fetchone()[0] > 0:
-            return
-        src = sqlite3.connect(SQLITE_PATH)
-        src.row_factory = sqlite3.Row
-        rows = src.execute('SELECT * FROM voters ORDER BY id').fetchall()
-        src.close()
-        values = []
-        for r in rows:
-            d = dict(r)
-            d['party'] = 'UNASSIGNED'   # start with clean counts
-            d['voted'] = 0
-            d['updated_at'] = None
-            values.append(tuple(d.get(c) for c in COLUMNS))
-        psycopg2.extras.execute_values(
-            cur,
-            f'INSERT INTO voters ({", ".join(COLUMNS)}) VALUES %s ON CONFLICT (id) DO NOTHING',
-            values)
-        cur.execute('UPDATE voters SET updated_at = CURRENT_TIMESTAMP WHERE updated_at IS NULL')
-        conn.commit()
-        print(f'[init_db] Seeded PostgreSQL with {len(values)} voters')
     finally:
         conn.close()
 
@@ -150,31 +52,8 @@ def init_db():
 init_db()
 
 
-# ---------------------------------------------------------------------------
-# ROUTES
-# ---------------------------------------------------------------------------
-@app.route('/')
-def index():
-    return send_from_directory('static', 'index.html')
-
-
-@app.route('/static/<path:path>')
-def serve_static(path):
-    return send_from_directory('static', path)
-
-
-@app.route('/api/health')
-def health():
-    return jsonify({
-        'ok': True,
-        'storage': 'postgresql (persistent)' if USE_PG else 'sqlite (local file)',
-        'persistent': USE_PG or not os.environ.get('RENDER'),
-    })
-
-
-@app.route('/api/stats')
-def get_stats():
-    r = query_one('''
+def compute_stats(conn):
+    r = conn.execute('''
         SELECT
           COUNT(*) AS total,
           SUM(CASE WHEN party = 'TDP' THEN 1 ELSE 0 END) AS tdp,
@@ -190,10 +69,10 @@ def get_stats():
           SUM(CASE WHEN voted = 1 AND party = 'DEAD' THEN 1 ELSE 0 END) AS voted_dead,
           SUM(CASE WHEN voted = 1 AND party = 'UNKNOWN' THEN 1 ELSE 0 END) AS voted_unknown
         FROM voters
-    ''') or {}
-    s = {k: int(v or 0) for k, v in r.items()}
+    ''').fetchone()
+    s = {k: int(r[k] or 0) for k in r.keys()} if r else {}
     total = s.get('total', 0)
-    tdp, ycp = s['tdp'], s['ycp']
+    tdp, ycp = s.get('tdp', 0), s.get('ycp', 0)
 
     def pct(n):
         return round(n / total * 100, 1) if total > 0 else 0
@@ -205,25 +84,54 @@ def get_stats():
     else:
         lead_party, lead_margin = 'TIE', 0
 
-    return jsonify({
+    return {
         'total': total,
-        'marked': tdp + ycp + s['neutral'] + s['dead'] + s['unknown'],
-        'unassigned': s['unassigned'],
+        'marked': tdp + ycp + s.get('neutral', 0) + s.get('dead', 0) + s.get('unknown', 0),
+        'unassigned': s.get('unassigned', 0),
         'tdp': tdp, 'tdp_pct': pct(tdp),
         'ycp': ycp, 'ysrcp': ycp, 'ycp_pct': pct(ycp),
-        'neutral': s['neutral'], 'neutral_pct': pct(s['neutral']),
-        'dead': s['dead'], 'dead_pct': pct(s['dead']),
-        'unknown': s['unknown'], 'unknown_pct': pct(s['unknown']),
-        'unassigned_pct': pct(s['unassigned']),
-        'voted_total': s['voted_total'],
-        'voted_tdp': s['voted_tdp'],
-        'voted_ycp': s['voted_ycp'],
-        'voted_neutral': s['voted_neutral'],
-        'voted_dead': s['voted_dead'],
-        'voted_unknown': s['voted_unknown'],
+        'neutral': s.get('neutral', 0), 'neutral_pct': pct(s.get('neutral', 0)),
+        'dead': s.get('dead', 0), 'dead_pct': pct(s.get('dead', 0)),
+        'unknown': s.get('unknown', 0), 'unknown_pct': pct(s.get('unknown', 0)),
+        'unassigned_pct': pct(s.get('unassigned', 0)),
+        'voted_total': s.get('voted_total', 0),
+        'voted_tdp': s.get('voted_tdp', 0),
+        'voted_ycp': s.get('voted_ycp', 0),
+        'voted_neutral': s.get('voted_neutral', 0),
+        'voted_dead': s.get('voted_dead', 0),
+        'voted_unknown': s.get('voted_unknown', 0),
         'lead_party': lead_party,
         'lead_margin': lead_margin,
+    }
+
+
+@app.route('/')
+def index():
+    return send_from_directory('static', 'index.html')
+
+
+@app.route('/static/<path:path>')
+def serve_static(path):
+    return send_from_directory('static', path)
+
+
+@app.route('/api/health')
+def health():
+    return jsonify({
+        'ok': True,
+        'storage': 'sqlite (render persistent disk)' if USING_MOUNTED_DISK else 'sqlite (render disk)',
+        'db_path': DB_PATH,
+        'persistent': True,
     })
+
+
+@app.route('/api/stats')
+def get_stats():
+    conn = get_db()
+    try:
+        return jsonify(compute_stats(conn))
+    finally:
+        conn.close()
 
 
 @app.route('/api/voters')
@@ -283,16 +191,27 @@ def get_voters():
     }
     query += f' ORDER BY {sort_orders.get(sort, "gp_serial ASC, serial_no ASC")}'
 
-    rows = query_all(query, params)
-    return jsonify({'voters': rows, 'count': len(rows)})
+    conn = get_db()
+    try:
+        rows = [dict(r) for r in conn.execute(query, params).fetchall()]
+        return jsonify({'voters': rows, 'count': len(rows)})
+    finally:
+        conn.close()
 
 
 @app.route('/api/sync')
 def sync_state():
-    """Lightweight snapshot of every voter's mark, polled by all open browsers
-    so changes made by one person appear for everyone within seconds."""
-    rows = query_all('SELECT id, party, voted FROM voters')
-    return jsonify({'state': [[r['id'], r['party'], int(r['voted'] or 0)] for r in rows]})
+    """Single lightweight endpoint returning both voter marks and stats."""
+    conn = get_db()
+    try:
+        rows = conn.execute('SELECT id, party, voted FROM voters').fetchall()
+        stats = compute_stats(conn)
+        return jsonify({
+            'state': [[r['id'], r['party'], int(r['voted'] or 0)] for r in rows],
+            'stats': stats,
+        })
+    finally:
+        conn.close()
 
 
 @app.route('/api/voters/<int:vid>/party', methods=['POST'])
@@ -305,52 +224,76 @@ def update_party(vid):
     if new_party not in ['TDP', 'YCP', 'NEUTRAL', 'DEAD', 'UNKNOWN', 'UNASSIGNED']:
         return jsonify({'error': 'Invalid status', 'received': new_party}), 400
 
-    execute('UPDATE voters SET party = ?, updated_at = CURRENT_TIMESTAMP WHERE id = ?', (new_party, vid))
-    updated = query_one('SELECT * FROM voters WHERE id = ?', (vid,))
-    if not updated:
-        return jsonify({'error': 'Voter not found'}), 404
-    return jsonify({'success': True, 'voter': updated})
+    conn = get_db()
+    try:
+        conn.execute('UPDATE voters SET party = ?, updated_at = CURRENT_TIMESTAMP WHERE id = ?', (new_party, vid))
+        conn.commit()
+        row = conn.execute('SELECT * FROM voters WHERE id = ?', (vid,)).fetchone()
+        if not row:
+            return jsonify({'error': 'Voter not found'}), 404
+        return jsonify({'success': True, 'voter': dict(row), 'stats': compute_stats(conn)})
+    finally:
+        conn.close()
 
 
 @app.route('/api/voters/<int:vid>/voted', methods=['POST'])
 def toggle_voted(vid):
     data = request.get_json(force=True, silent=True) or {}
-    if 'voted' in data:
-        # Explicit value -> idempotent, safe when several people click at once
-        execute('UPDATE voters SET voted = ?, updated_at = CURRENT_TIMESTAMP WHERE id = ?',
-                (1 if data.get('voted') else 0, vid))
-    else:
-        execute('UPDATE voters SET voted = CASE WHEN voted = 1 THEN 0 ELSE 1 END, '
-                'updated_at = CURRENT_TIMESTAMP WHERE id = ?', (vid,))
-    updated = query_one('SELECT * FROM voters WHERE id = ?', (vid,))
-    if not updated:
-        return jsonify({'error': 'Voter not found'}), 404
-    return jsonify({'success': True, 'voter': updated})
+    conn = get_db()
+    try:
+        if 'voted' in data:
+            conn.execute('UPDATE voters SET voted = ?, updated_at = CURRENT_TIMESTAMP WHERE id = ?',
+                         (1 if data.get('voted') else 0, vid))
+        else:
+            conn.execute('UPDATE voters SET voted = CASE WHEN voted = 1 THEN 0 ELSE 1 END, '
+                         'updated_at = CURRENT_TIMESTAMP WHERE id = ?', (vid,))
+        conn.commit()
+        row = conn.execute('SELECT * FROM voters WHERE id = ?', (vid,)).fetchone()
+        if not row:
+            return jsonify({'error': 'Voter not found'}), 404
+        return jsonify({'success': True, 'voter': dict(row), 'stats': compute_stats(conn)})
+    finally:
+        conn.close()
 
 
 @app.route('/api/reset_counts', methods=['POST'])
 def reset_counts():
-    execute("UPDATE voters SET party = 'UNASSIGNED', voted = 0, updated_at = CURRENT_TIMESTAMP")
-    total = query_one('SELECT COUNT(*) AS n FROM voters')['n']
-    return jsonify({
-        'success': True,
-        'message': f'All voter counts and votes reset back to unassigned/0 for all {total} voters.'
-    })
+    conn = get_db()
+    try:
+        conn.execute("UPDATE voters SET party = 'UNASSIGNED', voted = 0, updated_at = CURRENT_TIMESTAMP")
+        conn.commit()
+        stats = compute_stats(conn)
+        return jsonify({
+            'success': True,
+            'stats': stats,
+            'message': f"All voter counts and votes reset back to unassigned/0 for all {stats['total']} voters."
+        })
+    finally:
+        conn.close()
 
 
 @app.route('/api/sections')
 def get_sections():
-    rows = query_all("SELECT DISTINCT section_name FROM voters WHERE section_name <> '' ORDER BY section_name")
-    return jsonify({'sections': [r['section_name'] for r in rows]})
+    conn = get_db()
+    try:
+        rows = conn.execute("SELECT DISTINCT section_name FROM voters WHERE section_name <> '' ORDER BY section_name").fetchall()
+        return jsonify({'sections': [r['section_name'] for r in rows]})
+    finally:
+        conn.close()
 
 
 @app.route('/api/export')
 def export_csv():
-    rows = query_all('''
-        SELECT gp_serial, serial_no, epic_id, name, relation_type, relation_name, house_no, age, gender,
-               section_name, party, voted
-        FROM voters ORDER BY gp_serial ASC
-    ''')
+    conn = get_db()
+    try:
+        rows = conn.execute('''
+            SELECT gp_serial, serial_no, epic_id, name, relation_type, relation_name, house_no, age, gender,
+                   section_name, party, voted
+            FROM voters ORDER BY gp_serial ASC
+        ''').fetchall()
+    finally:
+        conn.close()
+
     output = io.StringIO()
     writer = csv.writer(output)
     writer.writerow(['GP Serial', 'Assembly Serial', 'EPIC ID', 'Name', 'Relation Type', 'Guardian Name',
@@ -367,5 +310,5 @@ def export_csv():
 
 
 if __name__ == '__main__':
-    print(f'Starting Voter Tally Server on http://localhost:5000  (storage: {"PostgreSQL" if USE_PG else "SQLite"})')
+    print(f'Starting Voter Tally Server on http://localhost:5000  (DB: {DB_PATH})')
     app.run(host='0.0.0.0', port=5000, debug=False)

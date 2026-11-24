@@ -20,3 +20,6 @@ static/crops_new/
 .vscode/
 .idea/
 *.log
+
+*.db-wal
+*.db-shm
